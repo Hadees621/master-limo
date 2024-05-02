@@ -14,7 +14,7 @@ const Section = ({ order, textContent, title, imgURL, blurImg }) => {
           order === "right" ? "lg:order-1" : "lg:order-2"
         }`}
       >
-        <Image src={imgURL} blurDataURL={blurImg} layout="fill" />
+        <Image src={imgURL} blurDataURL={blurImg} layout="fill" alt="alt" />
       </div>
       <div
         className={`flex h-auto w-full flex-col items-center bg-black 320:h-[500px] sm:w-full md:h-[930px] md:w-full lg:h-auto lg:w-[50%] lg:justify-center 1440:h-auto 2xl:h-auto ${

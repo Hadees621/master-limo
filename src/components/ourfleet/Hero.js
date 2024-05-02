@@ -40,6 +40,7 @@ const Hero = () => {
                 src={FleetBannerURL.benz}
                 blurDataURL={FleetBannerURL.benzblur}
                 layout="fill"
+                alt="fleet-banner"
               />
             </div>
             <div className=" relative h-[177px] w-full md:h-[85px] 1024:h-[110px] 1440:h-[145px] 2xl:h-[200px]">
@@ -47,6 +48,7 @@ const Hero = () => {
                 src={FleetBannerURL.ford}
                 blurDataURL={FleetBannerURL.fordBLur}
                 layout="fill"
+                alt="fleet-banner"
               />
             </div>
             <div className="  relative h-[177px] w-full md:h-[85px] 1024:h-[110px] 1440:h-[145px] 2xl:h-[200px]">
@@ -54,6 +56,7 @@ const Hero = () => {
                 src={FleetBannerURL.chev}
                 blurDataURL={FleetBannerURL.chevBLur}
                 layout="fill"
+                alt="fleet-banner"
               />
             </div>
           </div>
@@ -63,6 +66,7 @@ const Hero = () => {
                 src={FleetBannerURL.caddilac}
                 blurDataURL={FleetBannerURL.callilacBlur}
                 layout="fill"
+                alt="fleet-banner"
               />
             </div>
             <div className=" relative h-[177px] w-full md:h-[85px] 1024:h-[110px] 1440:h-[145px] 2xl:h-[200px]">
@@ -70,6 +74,7 @@ const Hero = () => {
                 src={FleetBannerURL.linc}
                 blurDataURL={FleetBannerURL.lincBLur}
                 layout="fill"
+                alt="fleet-banner"
               />
             </div>
           </div>

@@ -1,5 +1,6 @@
 import { Luggage, People } from "@/assets/icons";
 import { leagueSpartan700, montserrat500, montserrat600 } from "@/util/fonts";
+import Image from "next/legacy/image";
 import React from "react";
 
 function VehicelCard({ name, src, passenger, luggage }) {
@@ -19,7 +20,7 @@ function VehicelCard({ name, src, passenger, luggage }) {
         </div>
       </div>
       <div className="absolute left-[-20%] top-[50%] max-h-full  w-[470px] translate-y-[-50%] bg-transparent bg-opacity-60 object-cover">
-        <img src={src} alt="" srcset="" className="h-[100%] w-[100%]" />
+        <Image src={src} alt="" srcset="" className="h-[100%] w-[100%]" />
       </div>
       <div className=" flex justify-between px-2">
         <button

@@ -1,3 +1,5 @@
+import Image from "next/legacy/image";
+
 export const RightArrow = ({ width = 39, height = 39 }) => {
   return (
     <svg
@@ -212,7 +214,7 @@ export const Aeroplane = ({ color = "#bababa" }) => {
 };
 
 export const WeddingRing = () => {
-  return <img src="/images/rings.png" alt="ring" className="w-8 h-8" />;
+  return <Image src="/images/rings.png" alt="ring" className="h-8 w-8" />;
 };
 
 export const Music = ({ color = "#bababa" }) => {

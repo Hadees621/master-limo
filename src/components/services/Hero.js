@@ -11,6 +11,7 @@ const Hero = () => {
             src={ServiceBannerURL.banner}
             blurDataURL={ServiceBannerURL.bannerBlur}
             layout="fill"
+            alt="service"
           />
         </div>
         <div className="absolute left-[3%] top-[21%] 320:left-[5%] 425:top-[25%] 768:top-[23%] 1024:top-[23%] 1440:left-[5%] 1440:top-[23%] 2xl:left-[6%] 2xl:top-[24%]">

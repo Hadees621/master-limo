@@ -84,7 +84,12 @@ const Section = ({
             className="relative order-2 w-full 320:mt-6 320:h-[860px] 320:p-4 sm:order-2 sm:w-[80%] 1024:h-[650px] 1024:w-[800px] 1024:p-0 1440:h-[750px] 1440:w-[850px] 2xl:h-[850px] 2xl:w-[1000px]"
             data-aos="zoom-in"
           >
-            <Image src={`${imgURL}`} blurDataURL={`${blurImg}`} layout="fill" />
+            <Image
+              src={`${imgURL}`}
+              blurDataURL={`${blurImg}`}
+              layout="fill"
+              alt="img"
+            />
           </div>
 
           {/* third */}
