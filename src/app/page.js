@@ -1,15 +1,13 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
 
+import Estd from "@/components/home/Estd";
 import Fleet from "@/components/home/Fleet";
 import Services from "@/components/home/Services";
+import Polygons from "@/components/common/Polygons";
 import { Banner, LatestNews } from "@/components/home";
-
+import HomeContact from "@/components/home/HomeContact";
 import CustomerBase from "@/components/home/CustomerBase";
 import CustomerService from "@/components/home/CustomerService";
-import Estd from "@/components/home/Estd";
-import HomeContact from "@/components/home/HomeContact";
-import Polygons from "@/components/common/Polygons";
 
 function Home() {
   return (
@@ -19,7 +17,7 @@ function Home() {
         <Banner />
         <Polygons
           active={-1}
-          classes={`absolute 2lg:right-4 sm:right-5 xxs:right-3 right-1  3xxlg:top-[50%] xl:top-[53%] 2lg:top-[58%] smMd:top-[60%] sm:top-[61%] xs:top-[65%] top-[68%] translate-y-[-50%] z-[2]  flex flex-col`}
+          classes={`absolute 2lg:right-4 sm:right-5 xxs:right-3 right-1 3xxlg:top-[50%] xl:top-[53%] 2lg:top-[58%] smMd:top-[60%] sm:top-[61%] xs:top-[65%] top-[68%] translate-y-[-50%] z-[2]  flex flex-col`}
         />
       </div>
 
@@ -27,7 +25,7 @@ function Home() {
         <CustomerService />
         <Polygons
           active={6}
-          classes={`absolute 2lg:right-4 sm:right-5 xxs:right-3 right-1  3xxlg:top-[50%] xl:top-[53%] 2lg:top-[58%] smMd:top-[60%] sm:top-[61%] xs:top-[65%] top-[68%] translate-y-[-50%] z-[2]  flex flex-col  md:hidden`}
+          classes={`absolute 2lg:right-4 sm:right-5 xxs:right-3 right-1 3xxlg:top-[50%] xl:top-[53%] 2lg:top-[58%] smMd:top-[60%] sm:top-[61%] xs:top-[65%] top-[68%] translate-y-[-50%] z-[2]  flex flex-col  md:hidden`}
         />
       </div>
 
@@ -46,7 +44,7 @@ function Home() {
         <Services />
         <Polygons
           active={10}
-          classes={`absolute md:block hidden 2lg:right-4 sm:right-5 xxs:right-3 right-1  3xxlg:top-[50%] xl:top-[53%] 2lg:top-[58%] smMd:top-[60%] sm:top-[61%] xs:top-[65%] top-[68%] translate-y-[-50%] z-2  flex flex-col`}
+          classes={`absolute md:block hidden 2lg:right-4 sm:right-5 xxs:right-3 right-1 3xxlg:top-[50%] xl:top-[53%] 2lg:top-[58%] smMd:top-[60%] sm:top-[61%] xs:top-[65%] top-[68%] translate-y-[-50%] z-2 flex flex-col`}
         />
       </div>
 
@@ -55,7 +53,7 @@ function Home() {
         <LatestNews />
         <Polygons
           active={13}
-          classes={`absolute md:block hidden 2lg:right-4 sm:right-5 xxs:right-3 right-1  3xxlg:top-[50%] xl:top-[53%] 2lg:top-[58%] smMd:top-[60%] sm:top-[61%] xs:top-[65%] top-[68%] translate-y-[-50%] z-2  flex flex-col`}
+          classes={`absolute md:block hidden 2lg:right-4 sm:right-5 xxs:right-3 right-1 3xxlg:top-[50%] xl:top-[53%] 2lg:top-[58%] smMd:top-[60%] sm:top-[61%] xs:top-[65%] top-[68%] translate-y-[-50%] z-2 flex flex-col`}
         />
       </div>
 

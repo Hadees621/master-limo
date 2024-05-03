@@ -1,10 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import { FLEET } from "@/util/para";
-import * as fonts from "@/util/fonts";
 import { homeURL } from "@/util/urls";
-import { RightArrow } from "@/assets/icons";
+import * as fonts from "@/util/fonts";
 import Image from "next/legacy/image";
+import { RightArrow } from "@/assets/icons";
 
 function Fleet() {
   const Archivo = fonts.archivo300;

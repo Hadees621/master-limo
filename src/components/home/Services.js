@@ -78,7 +78,7 @@ function Services() {
         <h1
           class={`mx-2 text-sm uppercase tracking-[10px] text-[#a9a8a7] sm:text-lg ${Montserrat}`}
         >
-          <a href="">VIEW ALL SERVICES</a>
+          <a href="/services">VIEW ALL SERVICES</a>
         </h1>
         <RightArrow width={24} height={24} />
       </div>
