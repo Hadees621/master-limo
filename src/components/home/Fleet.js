@@ -13,10 +13,10 @@ function Fleet() {
 
   const slider = [
     { bottomText: "LIMO BUS", topText: "Mercedes Sprinter Limousine" },
-    { bottomText: "LIMO BUS", topText: "Luxury Stretch Limousine" },
+    { bottomText: "LIMO", topText: "Mercedes Sprinter Executive" },
     { bottomText: "SEDAN", topText: "Executive Sedan" },
-    { bottomText: "SUV", topText: "Executive SUV" },
-    { bottomText: "LIMO BUS", topText: "Mercedes Sprinter Executive" },
+    { bottomText: "LIMO", topText: "Luxury Stretch Limousine" },
+    { bottomText: "LIMO BUS", topText: "Executive SUV" },
     { bottomText: "SUV", topText: "Executive SUV" },
   ];
 
@@ -64,7 +64,7 @@ function Fleet() {
       </div>
 
       {/* the row */}
-      <div class="flex items-center justify-between px-5 xxs:justify-end">
+      <div class="flex items-center justify-between px-5 xxs:justify-end lg:pt-5">
         <h1 className={lastRow}>
           <a href="/ourfleet"> VIEW ENTIRE FLEET</a>
         </h1>
