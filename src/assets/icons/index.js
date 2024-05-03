@@ -214,7 +214,7 @@ export const Aeroplane = ({ color = "#bababa" }) => {
 };
 
 export const WeddingRing = () => {
-  return <Image src="/images/rings.png" alt="ring" className="h-8 w-8" />;
+  return <Image src="/images/rings.png" layout='fill' alt="ring" className="h-8 w-8" />;
 };
 
 export const Music = ({ color = "#bababa" }) => {
