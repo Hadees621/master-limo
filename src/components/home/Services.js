@@ -4,9 +4,9 @@ import Image from "next/legacy/image";
 import { homeURL } from "@/util/urls";
 import { RightArrow } from "@/assets/icons";
 import { ServiceContent } from "@/util/para";
+import { archivo300, leagueSpartan700, montserrat400 } from "@/util/fonts";
 import ServiceCardWeb from "./ServiceCardWeb";
 import ServiceCardMobile from "./ServiceCardMobile";
-import { archivo300, leagueSpartan700, montserrat400 } from "@/util/fonts";
 
 function Services() {
   const Montserrat = montserrat400;

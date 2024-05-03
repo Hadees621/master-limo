@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-
+"use client";
 import Estd from "@/components/home/Estd";
 import Fleet from "@/components/home/Fleet";
 import Services from "@/components/home/Services";

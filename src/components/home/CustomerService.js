@@ -3,18 +3,17 @@
 "use client";
 
 import React from "react";
-import { useRouter } from "next/navigation";
+import { useRouter } from "next/";
 import { homeURL } from "@/util/urls";
 import ServiceCard from "./ServiceCard";
 import Polygons from "../common/Polygons";
 import { archivo300, libre400, montserrat500 } from "@/util/fonts";
+import Button from "./Button";
 
 function CustomerService() {
   const router = useRouter();
-  const handleReserveNowClick = () => {
-    // Redirect to the desired URL
-    router.push("https://book.mylimobiz.com/v4/masterpiecelimo");
-  };
+  
+
   const LibreBaskerville = libre400;
   const services = [
     {
@@ -77,12 +76,7 @@ function CustomerService() {
             any longer; contact us today and book your luxury transportation!
           </p>
           <div className="mt-10 flex w-full cursor-pointer items-center justify-center">
-            <button
-              className={`mt- cursor-pointer bg-crimson px-5 py-3 text-xs text-white outline-none sm:me-5 sm:px-14 sm:text-base xxlg:px-16 xxlg:py-4 ${montserrat500}`}
-              onClick={handleReserveNowClick}
-            >
-              RESERVE NOW
-            </button>
+            <Button />
           </div>
         </div>
       </div>
