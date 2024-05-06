@@ -1,4 +1,4 @@
-import { leagueSpartan700, libre400 } from "@/util/fonts";
+import { leagueSpartan700, libre400, montserrat400 } from "@/util/fonts";
 import React from "react";
 
 function Contact() {
@@ -6,8 +6,8 @@ function Contact() {
     <div class="w-full">
       <section class="mb-32 flex w-full flex-col items-center justify-center">
         <div class="relative -z-10 h-[300px] w-full overflow-hidden bg-[url('https://res.cloudinary.com/dyjirwjvp/image/upload/q_100/v1700916363/ourfleet/bannner/fleet-banner_eccy2x.webp')] bg-cover bg-[50%] bg-no-repeat blur-sm sm:h-[400px]"></div>
-        <div class="container">
-          <div class="-mt-[100px] block rounded-lg bg-[hsla(0,0%,100%,0.7)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[30px] dark:bg-[hsla(0,0%,5%,0.7)] dark:shadow-black/20 md:px-12 md:py-16">
+        <div class="container ">
+          <div class="-mt-[100px] block rounded-lg bg-[hsla(0,0%,100%,0.7)] bg-black px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[30px] dark:bg-[hsla(0,0%,5%,0.7)] dark:shadow-black/20 md:px-12 md:py-16">
             <div class="mb-12 grid gap-x-3  sm:grid-cols-3">
               <div class="mx-auto mb-12 text-center lg:mb-0">
                 <svg
@@ -49,7 +49,7 @@ function Contact() {
                   />
                 </svg>
                 <h6 class={`font-medium uppercase text-white`}>
-                  New York, 94126
+                  1426 Morena Blvd, San Diego, CA 92110
                 </h6>
               </div>
               <div class="mx-auto mb-6 text-center md:mb-0">
@@ -68,96 +68,75 @@ function Contact() {
                   />
                 </svg>
                 <h6 class={`font-medium uppercase text-white`}>
-                  + 01 234 567 89
+                  + (858) 483-5466
                 </h6>
               </div>
             </div>
             <div class="mx-auto px-0 md:px-14 lg:px-36">
-              <form>
+              <form className="bg-black grid space-y-12">
                 <div class="relative mb-6 flex flex-col">
-                  <label class="mb-2 text-white" for="exampleInput90">
-                    Topic *
-                  </label>
-
                   <input
                     type="text"
-                    class="border-1 rounded border border-zinc-500 bg-transparent p-3"
+                    className="w-full border-b bg-transparent pb-4"
                     id="exampleInput90"
                     placeholder="Topic"
                   />
                 </div>
                 <div class="relative mb-6 flex flex-col justify-between xs:flex-row">
                   <div className="mb-3 flex flex-col xs:mb-0 xs:w-[48%]">
-                    <label class="mb-2 text-white" for="exampleInput90">
-                      First Name *
-                    </label>
-
                     <input
                       type="text"
-                      class="border-1 w-full rounded border border-zinc-500 bg-transparent p-3"
+                      className="w-full border-b bg-transparent pb-4"
                       id="exampleInput90"
-                      placeholder="First Name"
+                      placeholder="First Name *"
                     />
                   </div>
                   <div className="mb-3 flex flex-col xs:mb-0 xs:w-[48%]">
-                    <label class="mb-2 text-white" for="exampleInput90">
-                      Last Name *
-                    </label>
-
                     <input
                       type="text"
-                      class="border-1 w-full rounded border border-zinc-500 bg-transparent p-3"
+                      className="w-full border-b bg-transparent pb-4"
                       id="exampleInput90"
-                      placeholder="Last Name"
+                      placeholder="Last Name *"
                     />
                   </div>
                 </div>
                 <div class="relative mb-6 flex flex-col justify-between xs:flex-row">
                   <div className="mb-3 flex flex-col xs:mb-0 xs:w-[48%]">
-                    <label class="mb-2 text-white" for="exampleInput90">
-                      Phone *
-                    </label>
-
                     <input
                       type="text"
-                      class="border-1 w-full rounded border border-zinc-500 bg-transparent p-3"
+                      className="w-full border-b bg-transparent pb-4"
                       id="exampleInput90"
-                      placeholder="Phone number"
+                      placeholder="Phone *"
                     />
                   </div>
                   <div className="mb-3 flex flex-col xs:mb-0 xs:w-[48%]">
-                    <label class="mb-2 text-white" for="exampleInput90">
-                      Email *
-                    </label>
-
                     <input
                       type="text"
-                      class="border-1 w-full rounded border border-zinc-500 bg-transparent p-3"
+                      className="w-full border-b bg-transparent pb-4"
                       id="exampleInput90"
-                      placeholder="Email"
+                      placeholder="Email *"
                     />
                   </div>
                 </div>
                 <div class="relative mb-6 flex">
                   <div className="flex w-full flex-col">
-                    <label class="mb-2 w-full text-white" for="exampleInput90">
-                      Message
-                    </label>
-
-                    <textarea
-                      name=""
-                      id=""
-                      cols="30"
-                      rows="10"
-                      className="border-1 rounded border border-zinc-500 bg-transparent p-3"
-                    ></textarea>
+                    <div className="flex flex-col">
+                      <p className="pe-4 text-white xxlg:text-xl">Message</p>
+                      <textarea
+                        name=""
+                        id=""
+                        cols="30"
+                        rows="4"
+                        className="border-b bg-transparent"
+                      ></textarea>
+                    </div>
                   </div>
                 </div>
                 <button
                   type="button"
                   data-te-ripple-init
                   data-te-ripple-color="light"
-                  class="hover:bg-primary-600 focus:bg-primary-600 active:bg-primary-700 mt-10 inline-block w-full rounded bg-blue-600 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] lg:mb-0"
+                  class="hover:bg-primary-600 focus:bg-primary-600 active:bg-primary-700 mt-10 inline-block w-full rounded bg-[#2189B7] px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] lg:mb-0"
                 >
                   Send
                 </button>
