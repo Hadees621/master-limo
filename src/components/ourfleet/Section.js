@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "./Button";
 import Image from "next/legacy/image";
+import Reservation from "../common/Reservation";
 
 const Section = ({ order, textContent, title, imgURL, blurImg }) => {
   return (
@@ -10,7 +11,7 @@ const Section = ({ order, textContent, title, imgURL, blurImg }) => {
       }`}
     >
       <div
-        className={`relative flex h-auto items-stretch 320:h-[500px] sm:w-full md:h-[930px]  md:w-full lg:h-auto lg:w-[50%] 1440:h-auto 2xl:h-auto ${
+        className={`relative flex h-auto items-stretch 320:h-[500px] sm:w-full md:h-[930px]  md:w-full lg:h-auto lg:w-[50%] 1440:h-[900px]  2xl:h-[1250px] ${
           order === "right" ? "lg:order-1" : "lg:order-2"
         }`}
       >
@@ -33,7 +34,10 @@ const Section = ({ order, textContent, title, imgURL, blurImg }) => {
             {index < textContent.length - 1 && <br />}
           </React.Fragment>
         ))}
-        <Button />
+
+        <div className="m-10">
+          <Reservation title={"BOOK NOW!"} />
+        </div>
       </div>
     </div>
   );

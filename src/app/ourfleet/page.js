@@ -6,7 +6,6 @@ import { OurFleetSections } from "@/util/para";
 function OurFleet() {
   return (
     <>
-      {/* <Navbar /> */}
       <Hero />
       {OurFleetSections.map((section, index) => (
         <Section
