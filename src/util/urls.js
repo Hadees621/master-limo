@@ -16,25 +16,27 @@ export const homeURL = {
   SafetyBlur:
     "https://res.cloudinary.com/ozecloud/image/upload/e_blur:667,q_17/v1699938270/151877eee204f12e62c03a84727f6fa4_pmxasv.webp",
   fleet1:
-    "https://res.cloudinary.com/ozecloud/image/upload/q_auto:best/v1700550282/0f40a6094036319d89e9ed4842af6a5f_btjvvy.webp",
-  fleet1Blur:
-    "https://res.cloudinary.com/ozecloud/image/upload/e_blur:828,q_10/v1700550282/0f40a6094036319d89e9ed4842af6a5f_btjvvy.webp",
-  fleet2:
     "https://res.cloudinary.com/ozecloud/image/upload/q_auto:best/v1700550290/b0826e61e4a5e79c5c370a5a8cb03905_xl6uwd.webp",
-  fleet2Blur:
+  fleet1Blur:
     "https://res.cloudinary.com/ozecloud/image/upload/e_blur:100,q_10/v1700550290/b0826e61e4a5e79c5c370a5a8cb03905_xl6uwd.webp",
-  fleet3:
+  fleet2:
     "https://res.cloudinary.com/ozecloud/image/upload/q_auto:best/v1700550978/ac0a54cffcfd1d2e6a12be04bc93ceee_qyxtam.webp",
-  fleet3Blur:
+  fleet2Blur:
     "https://res.cloudinary.com/ozecloud/image/upload/e_blur:100,q_24/v1700550978/ac0a54cffcfd1d2e6a12be04bc93ceee_qyxtam.webp",
+  fleet5:
+    "https://res.cloudinary.com/ozecloud/image/upload/q_auto:best/v1700550282/0f40a6094036319d89e9ed4842af6a5f_btjvvy.webp",
+  fleet5Blur:
+    "https://res.cloudinary.com/ozecloud/image/upload/e_blur:828,q_10/v1700550282/0f40a6094036319d89e9ed4842af6a5f_btjvvy.webp",
   fleet4:
     "https://res.cloudinary.com/ozecloud/image/upload/q_auto:best/v1700550997/f152f1f6367777262810ce342abd2c09_yabwlp.webp",
   fleet4Blur:
     "https://res.cloudinary.com/ozecloud/image/upload/e_blur:1196,q_14/v1700550997/f152f1f6367777262810ce342abd2c09_yabwlp.webp",
-  fleet5:
+  fleet3:
     "https://res.cloudinary.com/ozecloud/image/upload/q_auto:best/v1700551123/816807eef6af1562245cfd4fe0ce309d_cic4yt.webp",
-  fleet5Blur:
+  fleet3Blur:
     "https://res.cloudinary.com/ozecloud/image/upload/e_blur:989,q_26/v1700551123/816807eef6af1562245cfd4fe0ce309d_cic4yt.webp",
+  fleet6:
+    "https://res.cloudinary.com/ozecloud/image/upload/q_auto:best/v1700551176/6380e24ebcd0a78620731d56e21930a7_dyvylz.webp",
   fleet6:
     "https://res.cloudinary.com/ozecloud/image/upload/q_auto:best/v1700551176/6380e24ebcd0a78620731d56e21930a7_dyvylz.webp",
   fleet6Blur:

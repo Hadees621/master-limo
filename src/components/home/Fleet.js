@@ -13,10 +13,10 @@ function Fleet() {
 
   const slider = [
     { bottomText: "LIMO BUS", topText: "Mercedes Sprinter Limousine" },
-    { bottomText: "LIMO BUS", topText: "Luxury Stretch Limousine" },
+    { bottomText: "LIMO", topText: "Mercedes Sprinter Executive" },
     { bottomText: "SEDAN", topText: "Executive Sedan" },
-    { bottomText: "SUV", topText: "Executive SUV" },
-    { bottomText: "LIMO BUS", topText: "Mercedes Sprinter Executive" },
+    { bottomText: "LIMO", topText: "Luxury Stretch Limousine" },
+    { bottomText: "LIMO BUS", topText: "Executive SUV" },
     { bottomText: "SUV", topText: "Executive SUV" },
   ];
 

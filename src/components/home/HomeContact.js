@@ -121,6 +121,8 @@ function HomeContact() {
             </p>
           </div>
         </div>
+
+        {/* contact form */}
         <div className="absolute right-0 inline-flex h-full w-[100%] flex-col justify-between px-5 sm:px-20 lg:right-10 lg:mr-10 lg:w-[30%] lg:px-1 lg:pr-10">
           <div className="flex">
             <p
