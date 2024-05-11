@@ -60,6 +60,7 @@ function HomeContact() {
           className={`my-10 mb-32 ml-2 flex w-full overflow-scroll overflow-x-auto lg:max-w-[800px] xl:max-w-[1100px] 2xl:max-w-[1700px] ${Montserrat400}`}
           style={{ WebkitOverflowScrolling: "touch" }}
           ref={testimonialsRef}
+          data-aos="zoom-in-up"
         >
           {Testomonials.map((_, idx) => (
             <Testimonials key={idx} {..._} />
@@ -71,7 +72,7 @@ function HomeContact() {
         active={20}
         classes={`absolute md:block hidden 2lg:right-4 sm:right-5 xxs:right-3 right-1  3xxlg:top-[50%] xl:top-[53%] 2lg:top-[58%] smMd:top-[60%] sm:top-[61%] xs:top-[65%] top-[68%] translate-y-[-50%] z-50  flex flex-col`}
       />
-      <div className="absolute left-0 top-[450px] mt-44 h-[320px] w-full  whitespace-normal lg:whitespace-nowrap xxlg:top-[702px] xxlg:h-[366px]">
+      <div className="absolute left-0 top-[450px] my-28 h-[320px] w-full  whitespace-normal lg:whitespace-nowrap xxlg:top-[702px] xxlg:h-[366px]">
         <div
           className="relative top-[500px] inline-flex h-[430px] w-[100%] flex-col  items-end justify-center whitespace-normal px-5 xs:h-[400px] sm:h-[280px] smMd:h-full smMd:pr-20 lg:top-0 lg:w-[60%] lg:px-10"
           style={gradient}
@@ -102,7 +103,7 @@ function HomeContact() {
         </div>
 
         {/* contact form */}
-        <div className="absolute right-0 inline-flex h-full w-[100%] flex-col justify-between px-5 sm:px-20 lg:right-10 lg:mr-10 lg:w-[30%] lg:px-1 lg:pr-10">
+        <div className="absolute right-0  inline-flex h-full w-[100%] flex-col justify-between px-5 sm:px-20 lg:right-10 lg:mr-10 lg:w-[30%] lg:px-1 lg:pr-10">
           <div className="flex">
             <p
               className={`pe-4 uppercase text-white xxlg:text-xl ${Montserrat400}`}

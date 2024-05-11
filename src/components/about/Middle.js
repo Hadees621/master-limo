@@ -4,6 +4,7 @@ import { AboutUsURLs } from "@/util/urls";
 import { AboutUSTextOnImage } from "@/util/para";
 import ImageTextSection from "./ImageTextSection";
 import StatsBlock from "./StatsBlock";
+import Reservation from "../common/Reservation";
 
 const Middle = () => {
   return (
@@ -97,12 +98,7 @@ const Middle = () => {
           </p>
 
           <div className="flex justify-center py-6">
-            <button
-              className="font-Montserrat h-[38px] w-[140px] flex-shrink-0 bg-red-800 text-[11px] font-[600] uppercase tracking-wider text-white 1024:h-[45px] 1024:w-[180px] 1024:text-[13px] 1440:h-[55px] 1440:w-[210px] 1440:text-[15px] 2xl:h-[80px] 2xl:w-[250px] 2xl:text-[20px]"
-              data-aos="zoom-in"
-            >
-              RESERVe now
-            </button>
+            <Reservation title={"RESERVE NOW"} dim={"w-[200px]"} />
           </div>
         </div>
       </div>
