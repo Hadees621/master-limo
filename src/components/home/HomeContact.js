@@ -1,51 +1,14 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
-import NavArrows from "./NavArrows";
+"use client";
+
+import React, { useRef } from "react";
 import * as fonts from "@/util/fonts";
-import { Quotes } from "@/assets/icons";
-import { News, image_urls } from "@/util";
-import Image from "next/legacy/image";
-import { homeURL } from "@/util/urls";
+import NavArrows from "./NavArrows";
 import Polygons from "../common/Polygons";
-
-const TestomonialCard = ({ src, text, name }) => {
-  const Montserrat600 = fonts.montserrat600;
-  const style = {
-    background: "rgba(56, 59, 66, 0.70)",
-  };
-  return (
-    <div
-      className="bg mr-3 inline-block h-[250px] w-[300px] flex-col whitespace-normal p-3 transition-all xxlg:h-[370px] xxlg:w-[448px]"
-      style={{ ...style }}
-      data-aos="zoom-in-up"
-    >
-      <div className="relative flex items-end justify-between">
-        <div class="h-16 w-16 overflow-hidden rounded-full bg-white transition-all xxlg:h-28 xxlg:w-32"></div>
-
-        <div className="h-[1px] w-[80%] bg-white transition-all xxlg:h-[4px] xxlg:w-[90%]"></div>
-        <div className="absolute right-0 mb-3">
-          <Quotes width={40} height={40} />
-        </div>
-      </div>
-
-      <p className={`my-5 text-center text-xs text-white xxlg:text-lg`}>
-        “We have used Masterpiece Limos for a while now and have enjoyed the
-        prompt services and great hospitality that we receive not only from the
-        owner but the drivers as well. This limo service is highly recommended,
-        for any special or fun occasion and we wouldn’t use anyone else.”
-      </p>
-
-      <div className="flex items-center justify-end">
-        <p
-          className={`text-[8px] text-[#FAC30F] transition-all xxlg:text-[12px] ${Montserrat600}`}
-        >
-          MIKE & MONICA BRADBURN
-        </p>
-        <div className="ml-4 h-[1px] w-[40%] bg-white transition-all xxlg:h-[2px]"></div>
-      </div>
-    </div>
-  );
-};
+import Image from "next/legacy/image";
+import Testimonials from "./Testimonials";
+import { Testomonials } from "@/util";
+import { homeURL } from "@/util/urls";
 
 function HomeContact() {
   const Libre = fonts.libre400;
@@ -73,26 +36,42 @@ function HomeContact() {
     backgroundPosition: "center",
   };
 
+  const testimonialsRef = useRef(null);
+
+  const scrollLeft = () => {
+    testimonialsRef.current.scrollLeft -= 100;
+  };
+
+  const scrollRight = () => {
+    testimonialsRef.current.scrollLeft += 100;
+  };
+
   return (
     <div className="relative mb-32 h-[1500px] w-full sm:h-[1300px] lg:h-[800px] xxlg:h-[1200px]">
       <BackgroundImage />
       <div className="absolute left-0 top-0 w-full px-2 md:px-10 lg:left-0 xxlg:w-[80%]">
         <div className="flex w-full items-center justify-between lg:pr-52">
           <h1 className={primaryHeading}>Hear it from our valued clients</h1>
-          <NavArrows />
+          <NavArrows scrollLeft={scrollLeft} scrollRight={scrollRight} />
         </div>
 
-        <div class="no-scrollbar my-10 mb-32 ml-2 overflow-scroll whitespace-nowrap lg:w-[81%]">
-          {News.map((_, idx) => {
-            return <TestomonialCard key={idx} {..._} />;
-          })}
+        {/* Testomonials */}
+        <div
+          className={`my-10 mb-32 ml-2 flex w-full overflow-scroll overflow-x-auto lg:max-w-[800px] xl:max-w-[1100px] 2xl:max-w-[1700px] ${Montserrat400}`}
+          style={{ WebkitOverflowScrolling: "touch" }}
+          ref={testimonialsRef}
+        >
+          {Testomonials.map((_, idx) => (
+            <Testimonials key={idx} {..._} />
+          ))}
         </div>
       </div>
+
       <Polygons
         active={20}
         classes={`absolute md:block hidden 2lg:right-4 sm:right-5 xxs:right-3 right-1  3xxlg:top-[50%] xl:top-[53%] 2lg:top-[58%] smMd:top-[60%] sm:top-[61%] xs:top-[65%] top-[68%] translate-y-[-50%] z-50  flex flex-col`}
       />
-      <div className="absolute left-0 top-[450px] h-[320px] w-full whitespace-normal  lg:whitespace-nowrap xxlg:top-[702px] xxlg:h-[366px]">
+      <div className="absolute left-0 top-[450px] mt-44 h-[320px] w-full  whitespace-normal lg:whitespace-nowrap xxlg:top-[702px] xxlg:h-[366px]">
         <div
           className="relative top-[500px] inline-flex h-[430px] w-[100%] flex-col  items-end justify-center whitespace-normal px-5 xs:h-[400px] sm:h-[280px] smMd:h-full smMd:pr-20 lg:top-0 lg:w-[60%] lg:px-10"
           style={gradient}
