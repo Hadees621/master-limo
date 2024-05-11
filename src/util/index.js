@@ -86,6 +86,44 @@ export const News = [
   },
 ];
 
+export const Testomonials = [
+  {
+    text: "“We have used Masterpiece Limos for a while now and have enjoyed the prompt services and great hospitality that we receive not only from the owner but the drivers as well. This limo service is highly recommended, for any special or fun occasion and we wouldn’t use anyone else.”",
+    name: "MIKE & MONICA BRADBURN",
+  },
+  {
+    text: "“I have experienced many limo rides… None of which have provided me and my guests with outstanding service and a smooth ride like Masterpiece. I definitely recommend and will continue to use Masterpiece Limousine.”",
+    name: "MARC BAZA",
+  },
+  {
+    text: "“Because of the excellent service and superb attention to detail provided by Masterpiece Limousine, they are the first on my “A” list to call when I am planning an evening out with business associates or friendly gatherings. As an Artist that needs extreme flexibility, no matter where you need transportation to, you can feel secure in knowing that you are always in very good hands. I would highly recommend them, so give them a call…”",
+    name: "SAN DIEGO BASED ARTIST AND SHORT STORY WRITER",
+  },
+  {
+    text: "“Vaco has relied on the service of Masterpiece Limos for three years now for events like company birthday bashes, the US Open in 2008, and recently for a companywide manager meeting, and we have always been completely satisfied and impressed! Eddie is always great to work with and his drivers are always on time and professional. We don’t even bother with shopping our transportation needs around because we know that Eddie’s price will be unbeatable, and we have peace of mind knowing that the job is going to be successfully accomplished without hassle. We will definitely continue to use Masterpiece Limos for all our transportation needs!”",
+    name: "VACO",
+  },
+  {
+    text: "“I just wanted to thank you for your services with our group the weekend of May 7-9. Our guests had an amazing time and Jose was great. See the comment below from one of the guests: “The minute we arrived in San Diego airport we were greeted with fantastic service by Jose who drove us to the hotel. From then on to the end of our trip we had no problems what so ever. Jose, our driver gave us some great tourist advice and told us of some great places to see.” Thank you for your excellent service and I hope we can work again in the future.”",
+    name: "LILY P.",
+  },
+  {
+    text: "“Masterpiece Limo has helped make more than a few family occasion memorable events. I was more than satisfied with the service we got, and more than a little blown away with the extras…Masterpiece seemed to go above and beyond for us, providing attention to even the smallest details, to ensure a worry free event. I felt as though I had family watching out for me.”",
+    name: "GENA CARLON",
+  },
+  {
+    text: "“Your search is over… This is the company to rent your limo from! I recently rented my first limo to take my parents wine tasting for their 45th anniversary. Seems like an easy process to find an honest limo company but I was amazed by how many shay limo companies there are out there, many with legitimate looking websites. Every time I thought I found a good company I’d yelp them and they had miserable reviews. Thankfully while I was researching on yelp I came across Masterpiece Limo. We talked to Eddie, had Phil as a driver, and had an outstanding day wine tasting in Temecula. The limo was clean, on time and very professional. Phil’s service was great and he even left his personal cell number for us when we forgot something in the limo to get it back to us. I can’t say enough good things about them. I would recommend this company to anyone looking for a limo. You’ll love it.”",
+    name: "KEVIN W.",
+  },
+  {
+    text: "“If you want a good time call EDDIE!!! He will give you a night to remember!!! I promise… Masterpiece Limousine service is hands down the best around. A couple of months ago was my Hubby’s birthday. After negotiating with Geoff at Limo Kings he contacted Eddie about renting with him since Geoff was unable to reserve the size limo we needed that night. Eddie honored our price and even gave us a Yelp discount. It was hands down the best service we could ever excepted. The day of the event, Eddie called me to confirm. He verified our address and even gave me the contact information of the driver. At 5:45 pm, I received a call from Bill (the driver) that he was right outside our door. We barely had time to finish our pre-party before we all hopped into the limo. First stop downtown, our driver Bill made sure that he opened the car door for us at every stop. This ensured that we did not get injured or walk into traffic. Bill was very professional and accommodating. He knew exactly how to get to every location and was kind enough to refill our ice supply during the evening. During certain points in the evening one of our guests needed to go back downtown to retrieve his car and Bill was more than willing to drop our friend off while we were inside the karaoke bar. We had a great night!!! Thank you so much Bill and Eddie!!!”",
+    name: "JACKIE A.",
+  },
+  {
+    text: "“EDDIE is AWESOME!!! I did tons of research for a wine tour in Temecula that I wanted to take with my best friends for my birthday, from the wineries to the limo. I relied on yelp to help me make most of my decisions and as far as limos go, MASTERPIECE LIMOUSINE was a GREAT choice for my event!! This was my first ever wine tour and I was clueless with everything. So like I said I did tons of research and finally called Masterpiece to book my limo, but first I wanted to check the fleets out, which was not a problem for Eddie. At the end of the day, I decided on the Hummer Limo because I wanted to go BIG for my best friends! I called Eddie to book it and he was just so HELPFUL. I told him it was my first time doing all this so I asked him what his favorite wineries were, I chose 1 of the 3 he recommended because I already had a list of my own, but I did choose his favorite, which was FUN! He also called the wineries for me to let them know we would be there, so I didn’t really do anything, but call Eddie. hah! Anyways, the day of the event Eddie upgraded us to a LIMO BUS because he didn’t want us to take the hummer limo due to battery problems. I was hesitant at first because it was a small group of people and I was thinking party bus. I decided to take up on his offer which was the best decision I made because it wasn’t too small/big it was perfect at the end of the day. The bus was stocked with sodas, ice, glasses, and a bottle of champagne! Israel was our chauffeur and he was AWESOME! We didn’t talk to him much towards our first two wineries, but he hung out for the third winery where we asked him “carne asada fries?” and he knew exactly where to go! We all ate, some slept, and the ride everywhere was smooth sailing!! This was all of our first time wine tasting and we had such an AMAZING time!! EDDIE definitely takes care of his customers and I would for sure book/recommend Masterpiece again for any other events!! THANK YOU THANK YOU THANK YOU!!!”",
+    name: "ANNE MARIE F",
+  },
+];
 export function limitAndConcat(str, limit = 50, displayLimit = 20) {
   if (str.length > limit) {
     return str.slice(0, displayLimit) + " ... read more";
