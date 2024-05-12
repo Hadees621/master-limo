@@ -1,7 +1,7 @@
 const { RightArrow } = require("@/assets/icons");
 const NavArrows = ({ scrollLeft, scrollRight }) => {
   return (
-    <div className="flex w-[46px]">
+    <div className="flex w-[46px] cursor-pointer">
       <span className="rotate-180" onClick={scrollLeft}>
         <RightArrow width={23} height={25} />
       </span>
