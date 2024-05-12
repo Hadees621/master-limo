@@ -52,7 +52,7 @@ function CustomerService() {
           className="h-full w-full object-cover"
         />
         <div
-          className="absolute left-2 w-[90%] px-5 375:bottom-[125px] 425:bottom-[175px] md:bottom-[380px] md:left-6 smMd:w-[560px] lg:bottom-[450px] xl:bottom-[700px] xxlg:w-[813px] 2xl:bottom-[1000px] 2xl:left-20"
+          className="absolute left-2 w-[90%] px-5 375:bottom-[125px] 425:bottom-[175px] md:bottom-[380px] md:left-6 smMd:w-[560px] lg:bottom-[450px] xl:bottom-[550px] xxlg:w-[813px] 2xl:bottom-[1000px] 2xl:left-20"
           data-aos="fade-up"
         >
           <h1
