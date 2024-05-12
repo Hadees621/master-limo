@@ -8,7 +8,7 @@ const ContactForm = () => {
         <div class="relative mb-6 flex flex-col">
           <input
             type="text"
-            className="w-full border-b bg-transparent pb-4"
+            className="w-full border-b bg-transparent pb-4 focus:outline-none"
             id="exampleInput90"
             placeholder="Topic"
           />
@@ -17,7 +17,7 @@ const ContactForm = () => {
           <div className="mb-3 flex flex-col xs:mb-0 xs:w-[48%]">
             <input
               type="text"
-              className="w-full border-b bg-transparent pb-4"
+              className="w-full border-b bg-transparent pb-4 focus:outline-none"
               id="exampleInput90"
               placeholder="First Name *"
             />
@@ -25,7 +25,7 @@ const ContactForm = () => {
           <div className="mb-3 flex flex-col xs:mb-0 xs:w-[48%]">
             <input
               type="text"
-              className="w-full border-b bg-transparent pb-4"
+              className="w-full border-b bg-transparent pb-4 focus:outline-none"
               id="exampleInput90"
               placeholder="Last Name *"
             />
@@ -35,7 +35,7 @@ const ContactForm = () => {
           <div className="mb-3 flex flex-col xs:mb-0 xs:w-[48%]">
             <input
               type="text"
-              className="w-full border-b bg-transparent pb-4"
+              className="w-full border-b bg-transparent pb-4 focus:outline-none"
               id="exampleInput90"
               placeholder="Phone *"
             />
@@ -43,7 +43,7 @@ const ContactForm = () => {
           <div className="mb-3 flex flex-col xs:mb-0 xs:w-[48%]">
             <input
               type="text"
-              className="w-full border-b bg-transparent pb-4"
+              className="w-full border-b bg-transparent pb-4 focus:outline-none"
               id="exampleInput90"
               placeholder="Email *"
             />
@@ -57,7 +57,7 @@ const ContactForm = () => {
                 id=""
                 cols="30"
                 rows="4"
-                className="border-b bg-transparent"
+                className="border-b bg-transparent focus:outline-none"
                 placeholder="Message"
               ></textarea>
             </div>
