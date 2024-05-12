@@ -3,7 +3,7 @@ import { homeURL } from "@/util/urls";
 import Image from "next/legacy/image";
 
 /* eslint-disable @next/next/no-img-element */
-const NewsCard = ({ idx, title, desc, time, width = false}) => {
+const NewsCard = ({ idx, title, desc, time, width = false }) => {
   const container = `mr-5 inline-block xxlg:h-[480px] h-[380px] flex-col whitespace-normal bg-black  ${
     width ? "xxlg:w-[450px] w-[330px]" : ""
   }`;
@@ -20,7 +20,7 @@ const NewsCard = ({ idx, title, desc, time, width = false}) => {
           blurDataURL={`${homeURL[`news${idx + 1}`]}Blur`}
         />
       </div>
-      <div class="flex flex-col border-l-2  border-l-[#A72211]  px-3">
+      <div class="flex flex-col border-l-2 border-l-[#A72211] px-3">
         <h1 className="py-2 text-center  text-white xxlg:text-[22px]">
           {title}
         </h1>

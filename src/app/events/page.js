@@ -40,7 +40,7 @@ function Search() {
   );
 }
 
-const Row = ({ idx }) => {
+const Row = ({ _, idx }) => {
   return (
     <div className="mb-2 flex justify-between pt-2">
       <h1 className={`text-7xl ${leagueSpartan700} px-5 text-white`}>
@@ -65,7 +65,7 @@ function Posts() {
       </p>
       <div class="mt-10">
         {content.map((_, idx) => (
-          <Row key={idx} idx={idx} />
+          <Row key={idx} idx={idx} {..._} />
         ))}
       </div>
     </div>
@@ -123,24 +123,21 @@ function AllTime() {
   );
 }
 
-const NewsCard = ({ idx, title, desc, time, width = false }) => {
-  const container = `xs:mr-5 xs:h-[495px]  flex-col whitespace-normal bg-black  ${
+const NewsCard = ({ idx, title, desc, time, width = false, dimension }) => {
+  const container = `xs:mr-5 xs:h-[495px] flex-col whitespace-normal bg-black  ${
     width ? "" : ""
   }`;
   return (
     <div className={container}>
-      <div class="relative h-[180px] w-full xs:h-[300px]">
-        <Image
-          src={`/${homeURL[`news${idx + 1}`]}`}
+      <div class={`relative h-[180px] w-full xs:h-[300px]  ${dimension}`}>
+        <img
+          src={`${homeURL[`news${idx + 1}`]}`}
           alt={title}
-          layout="fill"
-          objectFit="cover"
-          objectPosition="center"
-          className="grayscale filter"
+          className={`grayscale filter`}
           blurDataURL={`${homeURL[`news${idx + 1}`]}Blur`}
         />
       </div>
-      <div class="flex flex-col border-l-2  border-l-[#A72211]  px-3">
+      <div class="flex flex-col border-l-2 border-l-[#A72211] px-3">
         <h1 className="py-2 text-center  text-white xxlg:text-[22px]">
           {title}
         </h1>
@@ -184,8 +181,12 @@ function Events() {
           {News.map((_, idx) => {
             return (
               <div key={idx} className="mt-5 xs:mb-5">
-                <Link href={`/blog/${_.id}`}>
+                {/* <Link href={`/blog/${_.id}`}>
                   <NewsCard {..._} />
+                </Link> */}
+
+                <Link href={`/blog/${_.id}`}>
+                  <NewsCard key={idx} {..._} idx={idx} width={true} />;
                 </Link>
               </div>
             );
