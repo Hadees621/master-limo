@@ -1,4 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
+"use client";
+
 import {
   leagueSpartan700,
   libre400,
@@ -10,6 +12,7 @@ import React from "react";
 import { RightArrow, SearchIcon } from "@/assets/icons";
 import { homeURL } from "@/util/urls";
 import Image from "next/legacy/image";
+import Link from "next/link";
 
 function HeadingRow() {
   const heading = `text-4xl uppercase text-white sm:text-6xl md:text-7xl ${leagueSpartan700}`;
@@ -128,7 +131,7 @@ const NewsCard = ({ idx, title, desc, time, width = false }) => {
     <div className={container}>
       <div class="relative h-[180px] w-full xs:h-[300px]">
         <Image
-          src={homeURL.news1}
+          src={`/${homeURL[`news${idx + 1}`]}`}
           alt={title}
           layout="fill"
           objectFit="cover"
@@ -181,7 +184,9 @@ function Events() {
           {News.map((_, idx) => {
             return (
               <div key={idx} className="mt-5 xs:mb-5">
-                <NewsCard {..._} />
+                <Link href={`/blog/${_.id}`}>
+                  <NewsCard {..._} />
+                </Link>
               </div>
             );
           })}
