@@ -34,8 +34,8 @@ function CustomerService() {
     },
   ];
   return (
-    <>
-      <div className="relative my-32 flex w-full flex-col items-center justify-center px-10 sm:block sm:whitespace-nowrap smMd:px-16">
+    <div className="relative">
+      <div className="my-32 flex w-full flex-col items-center justify-center px-10 sm:block sm:whitespace-nowrap smMd:px-16">
         {services.map((service, idx) => {
           return <ServiceCard key={idx} {...service} />;
         })}
@@ -44,7 +44,7 @@ function CustomerService() {
           classes={`absolute 2lg:right-4 sm:right-5 xxs:right-3 right-1  3xxlg:top-[50%] xl:top-[53%] 2lg:top-[58%] smMd:top-[60%] sm:top-[61%] xs:top-[65%] top-[68%] translate-y-[-50%] z-[2]  flex flex-col`}
         />
       </div>
-      <div className="relative top-[200px] -z-10 w-full smMd:top-[47px] 2lg:-top-[200px]  xl:-top-[280px]  xxlg:-top-[338px]">
+      <div className="top-[200px] -z-10 w-full smMd:top-[47px] 2lg:-top-[200px]  xl:-top-[280px]  xxlg:-top-[338px]">
         <img
           src="/images/service_banner.png"
           alt=""
@@ -52,7 +52,7 @@ function CustomerService() {
           className="h-full w-full object-cover"
         />
         <div
-          className="absolute -top-[20rem] left-0 w-[90%] px-5 xxs:-top-[18rem] xxs:ps-16 sm:-top-44 smMd:-top-10 smMd:w-[560px] 2lg:top-[40%] xxlg:w-[813px]"
+          className="absolute bottom-44 left-2 w-[90%] px-5 smMd:-top-10 smMd:w-[560px] lg:-top-[20rem] lg:left-4 2lg:top-[40%] xxlg:w-[813px]"
           data-aos="fade-up"
         >
           <h1
@@ -71,12 +71,12 @@ function CustomerService() {
             any longer; contact us today and book your luxury transportation!
           </p>
 
-          <div className="relative top-10 mt-10 w-full justify-center">
+          <div className="top-10 mt-10 w-full justify-center">
             <Reservation title={"RESERVE NOW"} dim={"w-[200px]"} />
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
