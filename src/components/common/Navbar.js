@@ -42,6 +42,10 @@ function NavLinks({ horizontal = true, handler }) {
     { name: "OUR FLEET", href: "/ourfleet" },
     { name: "ABOUT US", href: "/about" },
     { name: "CONTACT US", href: "/contact" },
+    {
+      name: "RESERVATION",
+      href: "https://book.mylimobiz.com/v4/masterpiecelimo",
+    },
   ];
 
   const containerClasses = horizontal
@@ -49,7 +53,10 @@ function NavLinks({ horizontal = true, handler }) {
     : "mt-[20px] flex h-full w-full flex-col items-center justify-center";
   return (
     <ul className={containerClasses}>
-      {routes.map((route) => {
+      {routes.map((route, index) => {
+        if (index === routes.length - 1 && horizontal) {
+          return null;
+        }
         return (
           <NavLink
             key={route.name}
@@ -94,7 +101,9 @@ export default function Navbar() {
         <NavLinks />
       </div>
 
-      <Reservation title={"Reservations"} />
+      <div className="hidden lg:block">
+        <Reservation title={"Reservations"} />
+      </div>
 
       <div className="absolute right-0 z-50 block outline-none lg:hidden">
         <Hamburger

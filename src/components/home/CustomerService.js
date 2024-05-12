@@ -1,9 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
-
 "use client";
 
 import React from "react";
-import { useRouter } from "next/navigation";
 import { homeURL } from "@/util/urls";
 import ServiceCard from "./ServiceCard";
 import Polygons from "../common/Polygons";
@@ -73,7 +71,7 @@ function CustomerService() {
             any longer; contact us today and book your luxury transportation!
           </p>
 
-          <div className="relative top-10 mt-10 flex w-full justify-center">
+          <div className="relative top-10 mt-10 w-full justify-center">
             <Reservation title={"RESERVE NOW"} dim={"w-[200px]"} />
           </div>
         </div>
