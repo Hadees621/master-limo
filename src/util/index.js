@@ -70,18 +70,33 @@ export const image_urls = {
 
 export const News = [
   {
+    id: "1",
     title: "COMIC-CON SDCC 2016 LIMOUSINE RENTAL SERVICE SAN DIEGO",
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, atque? Incidunt, fugiat. Vero nulla laborum quidem beatae distinctio ex aliquid reiciendis sit debitis. Molestias magni amet consequuntur! Eligendi magnam quisquam deleniti voluptatibus nulla quidem sunt culpa rem, optio nesciunt expedita, earum ea distinctio. Laudantium tempore earum dolor non accusamus sed ex et iure architecto, quasi illo enim ducimus? Quos, ab tempora libero veniam dolor aliquam, deserunt eligendi exercitationem eos dolores ea? Error cupiditate sint porro deleniti id nam exercitationem fugit natus veritatis modi itaque quisquam obcaecati similique labore commodi iste vitae hic, cum autem, magnam libero provident laborum. Totam repellat animi consequuntur consectetur modi. Impedit explicabo doloremque pariatur ad cum iusto odio saepe, quos dolores delectus perspiciatis! Consequuntur, exercitationem veniam necessitatibus rem sequi at ad voluptatum corrupti beatae dolorum a autem aut nobis ipsam cupiditate perferendis facere molestiae quaerat iste facilis repudiandae illum quae, deserunt atque! Doloribus et obcaecati odit quas in ipsum qui eum corrupti? Iusto aspernatur, voluptatem saepe quos veritatis labore illum non possimus incidunt numquam deleniti ipsum aut provident porro placeat excepturi sapiente ducimus obcaecati dolor blanditiis, architecto ratione. Praesentium possimus sed vel. Nobis ipsum doloremque aspernatur eaque pariatur eum quas nam fugit esse ullam doloribus, quos quo repellat consectetur fuga. Odit asperiores similique, tempora hic minima saepe quisquam enim rerum nam sed fugiat amet eveniet rem omnis tenetur laudantium minus veniam obcaecati esse repellat beatae quibusdam ratione. Obcaecati modi veritatis maiores et earum in eius repudiandae, provident laboriosam mollitia praesentium error, facere reiciendis hic voluptate quae illum veniam necessitatibus dolor quia ea explicabo numquam accusamus! In velit ut quisquam cupiditate beatae vitae debitis expedita possimus quia saepe voluptas sequi modi sed, et iure repellat distinctio quasi aliquam porro hic? Accusantium laboriosam impedit doloribus aperiam explicabo, autem reprehenderit accusamus quis harum, voluptatibus illum sit culpa modi nam.",
-    time: "20 Jul 2017/By masterlimo",
+    desc: "Looking for a simple and stylish way in and out of the convention center this year? Make it easier on yourself for San Diego Comic Con 2016 and avoid parking or taking the bus or train altogether! ... read more.",
+    img: "",
   },
   {
+    id: "4",
     title: "THINGS TO DO IN SAN DIEGO ON THE 4TH OF JULY",
     desc: "There are many things that you can do on the 4th of July weekend that can make it memorable. One of the things that you need to have a good time is find the perfect ride. We can ... read more",
     time: "20 Jul 2017/By masterlimo",
   },
   {
+    id: "3",
     title: "CHAMPAGNE, JAZZ AND LIMOUSINES IN TEMECULA",
     desc: "Few can disagree that there is nothing classier than this combination: Champagne, Jazz and Limousines. Luckily, folks near Temecula Wine Country can ... read more",
+    time: "20 Jul 2017/By masterlimo",
+  },
+  {
+    id: "2",
+    title: "Graduation Limousine Services San Diego",
+    desc: "Graduation ceremonies are very memorable events indeed because they mark the very last days in school and offer excellent opportunities to celebrate the hard work and years of academic  ... read more",
+    time: "20 Jul 2017/By masterlimo",
+  },
+  {
+    id: "5",
+    title: "Mother’s Day Limo Rentals San Diego",
+    desc: "Do you want to really treat your mother this Mother’s Day? San Diego’s finest limo service Masterpiece highly recommends spending time with your mom in San Diego this year. If you’ve been pondering which gift would be perfect ... read more",
     time: "20 Jul 2017/By masterlimo",
   },
 ];

@@ -1,6 +1,6 @@
 import React from "react";
 
-const page = ({ params }) => {
+const page = () => {
   return (
     <div class="w-full">
       <section class="mb-32 flex w-full flex-col items-center justify-center">
@@ -67,7 +67,7 @@ const page = ({ params }) => {
               not sure of what you are going to do during the day or night on
               this weekend, here are some of the events that you can go to:
             </p>
-            <ul class="mx-5 list-disc text-white font-bold">
+            <ul class="mx-5 list-disc font-bold text-white">
               <li>“Big Bay Boom” Fireworks Show</li>
               <li>La Jolla Cove Fourth of July Fireworks</li>
               <li>LEGOLAND Red, White, and Boom!</li>
