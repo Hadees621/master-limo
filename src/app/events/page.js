@@ -169,8 +169,8 @@ function Events() {
 
       <div className=" mb-32 flex w-full max-w-[2000px] flex-col   gap-5   px-3 xs:px-10 sm:px-32 smMd:flex-row smMd:px-5">
         {/* left corner  */}
-        <div class="  mt-5 smMd:w-1/3 xl:w-1/4">
-          <Search />
+        <div class=" smMd:w-1/3 xl:w-1/4">
+          {/* <Search /> */}
           <Posts />
           <AllTime />
         </div>
