@@ -11,7 +11,6 @@ import { News, limitAndConcat } from "@/util";
 import React from "react";
 import { RightArrow, SearchIcon } from "@/assets/icons";
 import { homeURL } from "@/util/urls";
-import Image from "next/legacy/image";
 import Link from "next/link";
 
 function HeadingRow() {
@@ -40,21 +39,24 @@ function Search() {
   );
 }
 
-const Row = ({ _, idx }) => {
+const Row = ({ title, idx }) => {
   return (
     <div className="mb-2 flex justify-between pt-2">
       <h1 className={`text-7xl ${leagueSpartan700} px-5 text-white`}>
         {idx + 1}
       </h1>
-      <p className={`text-xs text-white ${montserrat400}`}>
-        COMIC-CON SDCC 2016 LIMOUSINE RENTAL SERVICE SAN DIEGO
-      </p>
+      <p className={`text-xs text-white ${montserrat400}`}>{title}</p>
     </div>
   );
 };
 
 function Posts() {
-  const content = new Array(4).fill(null);
+  const content = [
+    "Comic-Con SDCC 2016 Limousine Rental Service San Diego",
+    "Graduation Limousine Services San Diego",
+    "Wedding Limousine Rentals San Diego",
+    "Airport Transfer Limousine Services San Diego",
+  ];
 
   return (
     <div className="mt-10 bg-[#2189b7] bg-opacity-60 px-5 py-2">
@@ -63,9 +65,9 @@ function Posts() {
       >
         top posts
       </p>
-      <div class="mt-10">
-        {content.map((_, idx) => (
-          <Row key={idx} idx={idx} {..._} />
+      <div className="mt-10">
+        {content.map((title, idx) => (
+          <Row key={idx} idx={idx} title={title} />
         ))}
       </div>
     </div>
@@ -181,10 +183,6 @@ function Events() {
           {News.map((_, idx) => {
             return (
               <div key={idx} className="mt-5 xs:mb-5">
-                {/* <Link href={`/blog/${_.id}`}>
-                  <NewsCard {..._} />
-                </Link> */}
-
                 <Link href={`/blog/${_.id}`}>
                   <NewsCard key={idx} {..._} idx={idx} width={true} />;
                 </Link>
@@ -198,27 +196,3 @@ function Events() {
 }
 
 export default Events;
-
-{
-  /* <div>
-<img
-  src="https://res.cloudinary.com/ozecloud/image/upload/q_auto:best/v1700968369/f768d297837638be1b32d563fd928951_k8f1af.webp"
-  alt="events-banner"
-  className=""
-/>
-
-{/* the heading row  */
-}
-{
-}
-
-{
-  /* the content  */
-}
-{
-  /* <div className="absolute top-[200px] grid w-full gap-5  px-5 xxs:top-[300px] sm:top-[400px] sm:grid-cols-2 md:grid-cols-3 lg:px-10">
-  {/* left corner  */
-}
-
-// </div>
-// </div> */} */}
