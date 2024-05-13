@@ -57,6 +57,14 @@ export const homeURL = {
     "https://res.cloudinary.com/ozecloud/image/upload/q_auto:best/v1700802675/63f2fee2a5274e30d4a3f1026d314ded_cvsjqp.webp",
   news3Blur:
     "https://res.cloudinary.com/ozecloud/image/upload/e_blur:1104,q_17/v1700802675/63f2fee2a5274e30d4a3f1026d314ded_cvsjqp.webp",
+
+  news4: "/gradutaion.jpg",
+  news4Blur:
+    "https://res.cloudinary.com/ozecloud/image/upload/e_blur:1104,q_17/v1700802676/87bc2660707f88dc2b2ede0aeb46a232_c0ds1d.webp",
+  news5: "/mothers.jpg",
+  news5Blur:
+    "https://res.cloudinary.com/ozecloud/image/upload/e_blur:1104,q_17/v1700802675/63f2fee2a5274e30d4a3f1026d314ded_cvsjqp.webp",
+
   estd: "https://res.cloudinary.com/ozecloud/image/upload/q_auto:best/v1700950613/f1155c7086d9c3b080bb59648cf71aef_xxdc93.webp",
   estdBlur:
     "https://res.cloudinary.com/ozecloud/image/upload/e_blur:920,q_10/v1700950613/f1155c7086d9c3b080bb59648cf71aef_xxdc93.webp",
