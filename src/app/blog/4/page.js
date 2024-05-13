@@ -9,7 +9,7 @@ const page = () => {
           Things to do in San Diego on the 4th of July
         </p>
 
-        <div className="mt-32 w-full max-w-[1100px] text-start text-white">
+        <div className="mt-32 w-full max-w-[1100px] text-start text-white" data-aos="zoom-out">
           <div className="my-10">
             <h1 className="font-LeagueSpartan  text-[24px] font-semibold">
               Things to do in San Diego on the 4th of July

@@ -9,7 +9,7 @@ const page = ({ params }) => {
           Mother’s Day Limo Rentals San Diego
         </p>
 
-        <div className="mt-32 w-full max-w-[1100px] text-start text-white">
+        <div className="mt-32 w-full max-w-[1100px] text-start text-white" data-aos="zoom-out">
           <div className="my-10">
             <h1 className="font-LeagueSpartan  text-[24px] font-semibold">
               Mother’s Day Limo Rentals San Diego

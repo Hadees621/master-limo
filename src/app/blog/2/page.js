@@ -5,11 +5,11 @@ const page = ({ params }) => {
     <div class="w-full">
       <section class="mb-32 flex w-full flex-col items-center justify-center">
         <div class="relative -z-10 h-[300px] w-full overflow-hidden bg-[url('https://res.cloudinary.com/dyjirwjvp/image/upload/q_100/v1700916363/ourfleet/bannner/fleet-banner_eccy2x.webp')] bg-cover bg-[50%] bg-no-repeat blur-sm sm:h-[400px] 2xl:h-[600px]"></div>
-        <p className="text-shadow font-LeagueSpartan absolute top-44 px-0 text-center text-[20px] font-[700] text-white md:px-24 md:text-[30px] 1024:text-[30px] lg:px-40 lg:text-[40px] xl:px-60 2xl:top-64 2xl:px-80 2xl:text-[70px]">
+        <p className="text-shadow font-LeagueSpartan absolute top-44 px-0 text-center text-[20px] font-[700] text-white md:px-24 md:text-[30px] 1024:text-[30px] lg:px-40 lg:text-[40px] xl:px-60 2xl:top-64 2xl:px-80 2xl:text-[70px]"   >
           Graduation Limousine Services San Diego
         </p>
 
-        <div className="mt-32 w-full max-w-[1100px] text-start text-white">
+        <div className="mt-32 w-full max-w-[1100px] text-start text-white" data-aos="zoom-out">
           <div className="my-10">
             <h1 className="font-LeagueSpartan  text-[24px] font-semibold">
               Graduation Limousine Services San Diego

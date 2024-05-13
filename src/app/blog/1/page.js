@@ -9,7 +9,10 @@ const page = ({ params }) => {
           Comic-Con SDCC 2016 Limousine Rental Service San Diego
         </p>
 
-        <div className="mt-32 w-full max-w-[1100px] text-start text-white">
+        <div
+          className="mt-32 w-full max-w-[1100px] text-start text-white"
+          data-aos="zoom-out"
+        >
           <div className="my-10">
             <h1 className="font-LeagueSpartan  text-[24px] font-semibold">
               COMIC-CON SDCC 2016 LIMOUSINE RENTAL SERVICE SAN DIEGO

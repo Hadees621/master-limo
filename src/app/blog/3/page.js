@@ -9,7 +9,10 @@ const page = ({ params }) => {
           Champagne, Jazz and Limousines in Temecula
         </p>
 
-        <div className="mt-32 w-full max-w-[1100px] text-start text-white">
+        <div
+          className="mt-32 w-full max-w-[1100px] text-start text-white"
+          data-aos="zoom-out"
+        >
           <div className="my-10">
             <h1 className="font-LeagueSpartan  text-[24px] font-semibold">
               Champagne, Jazz and Limousines in Temecula
