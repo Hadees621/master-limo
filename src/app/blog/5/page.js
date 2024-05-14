@@ -120,7 +120,7 @@ const page = ({ params }) => {
             </p>
           </div>
 
-          <div className="my-10 flex gap-8 text-[#1EACC7]">
+          {/* <div className="my-10 flex gap-8 text-[#1EACC7]">
             <div className="flex hover:font-bold">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -154,7 +154,7 @@ const page = ({ params }) => {
                 />
               </svg>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </div>
