@@ -13,7 +13,7 @@ const page = ({ params }) => {
           className="mt-32 w-full max-w-[1100px] text-start text-white"
           data-aos="zoom-out"
         >
-          <div className="my-10">
+          <div className="my-10 mx-5 md:mx-10 xl:mx-0">
             <h1 className="font-LeagueSpartan  text-[24px] font-semibold">
               Champagne, Jazz and Limousines in Temecula
             </h1>
@@ -60,7 +60,7 @@ const page = ({ params }) => {
             </div>
           </div>
 
-          <div className="grid max-w-[800px] space-y-5">
+          <div className="grid max-w-[800px]  2xl:max-w-[1600px] space-y-5 mx-5 md:mx-10 xl:mx-0">
             <p>
               Few can disagree that there is nothing classier than this
               combination: Champagne, Jazz and Limousines. Luckily, folks near

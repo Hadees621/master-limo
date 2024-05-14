@@ -10,7 +10,7 @@ const page = ({ params }) => {
         </p>
 
         <div className="mt-32 w-full max-w-[1100px] text-start text-white" data-aos="zoom-out">
-          <div className="my-10">
+          <div className="my-10 mx-5 md:mx-10 xl:mx-0">
             <h1 className="font-LeagueSpartan  text-[24px] font-semibold">
               Graduation Limousine Services San Diego
             </h1>
@@ -57,7 +57,7 @@ const page = ({ params }) => {
             </div>
           </div>
 
-          <div className="grid max-w-[800px] space-y-5">
+          <div className="grid max-w-[800px] 2xl:max-w-[1600px] space-y-5 mx-5 md:mx-10 xl:mx-0">
             <p>
               Graduation ceremonies are very memorable events indeed because
               they mark the very last days in school and offer excellent

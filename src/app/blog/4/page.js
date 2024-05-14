@@ -10,7 +10,7 @@ const page = () => {
         </p>
 
         <div className="mt-32 w-full max-w-[1100px] text-start text-white" data-aos="zoom-out">
-          <div className="my-10">
+          <div className="my-10 mx-5 md:mx-10 xl:mx-0">
             <h1 className="font-LeagueSpartan  text-[24px] font-semibold">
               Things to do in San Diego on the 4th of July
             </h1>
@@ -57,7 +57,7 @@ const page = () => {
             </div>
           </div>
 
-          <div className="grid max-w-[800px] space-y-5">
+          <div className="grid max-w-[800px] 2xl:max-w-[1600px] space-y-5 mx-5 md:mx-10 xl:mx-0">
             <p>
               There are many things that you can do on the 4th of July weekend
               that can make it memorable. One of the things that you need to
