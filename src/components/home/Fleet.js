@@ -13,14 +13,12 @@ function Fleet() {
 
   const slider = [
     { bottomText: "LIMO BUS", topText: "Mercedes Sprinter Limousine" },
-    { bottomText: "LIMO", topText: "Mercedes Sprinter Executive" },
-    { bottomText: "SEDAN", topText: "Executive Sedan" },
     { bottomText: "LIMO", topText: "Luxury Stretch Limousine" },
+    { bottomText: "LIMO", topText: "Mercedes Sprinter Executive" },
     { bottomText: "LIMO BUS", topText: "Executive SUV" },
-    { bottomText: "SUV", topText: "Executive SUV" },
   ];
 
-  const sliderThumbnail = `group relative inline-block xxlg:h-[600px] h-[400px] xxlg:w-[350px] w-56  transition-all duration-700 ease-out xxlg:hover:w-[450px] hover:w-80 `;
+  const sliderThumbnail = `group relative inline-block xxlg:h-[600px] h-[400px] xxlg:w-[450px] w-80 transition-all duration-700 ease-out xxlg:hover:w-[550px] lg:hover:w-[300px] `;
   const rowPara = `w-auto text-center xxlg:text-base text-xs leading-[1.1] text-[#e7e2e2] sm:w-[80%] md:w-1/2 ${Archivo}`;
   const rowHeading = `text-[40px] text-white sm:text-[60px]  md:w-1/2 md:text-[80px] ${LeagureSpartan}`;
   const lastRow = `cursor-pointer xxlg:text-base text-xs xxs:tracking-[10px] tracking-[5px] text-white sm:text-sm ${Montserrat}`;
