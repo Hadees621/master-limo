@@ -18,7 +18,7 @@ function Fleet() {
     { bottomText: "LIMO BUS", topText: "Executive SUV" },
   ];
 
-  const sliderThumbnail = `group relative inline-block xxlg:h-[600px] h-[400px] xxlg:w-[450px] w-80 transition-all duration-700 ease-out xxlg:hover:w-[550px] lg:hover:w-[300px] `;
+  const sliderThumbnail = `group relative inline-block transition-all duration-700 ease-out xxlg:h-[600px] h-[400px] w-44 hover:w-52 md:w-52 md:hover:w-80 lg:w-[250px] lg:hover:w-[300px] xl:hover:w-[600px] xl:w-[400px] 2xl:w-[650px] 2xl:hover:w-[750px]`;
   const rowPara = `w-auto text-center xxlg:text-base text-xs leading-[1.1] text-[#e7e2e2] sm:w-[80%] md:w-1/2 ${Archivo}`;
   const rowHeading = `text-[40px] text-white sm:text-[60px]  md:w-1/2 md:text-[80px] ${LeagureSpartan}`;
   const lastRow = `cursor-pointer xxlg:text-base text-xs xxs:tracking-[10px] tracking-[5px] text-white sm:text-sm ${Montserrat}`;
