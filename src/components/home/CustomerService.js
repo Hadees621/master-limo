@@ -50,7 +50,7 @@ function CustomerService() {
           src="/images/service_banner.png"
           alt=""
           srcset=""
-          className="h-[800px] w-full object-cover pt-2"
+          className="h-full w-full object-cover pt-20 lg:h-[800px] lg:pt-0"
         />
         <div
           className="absolute left-2 w-[90%] px-5 375:bottom-[225px] 425:bottom-[220px] md:bottom-[380px] md:left-6 smMd:w-[560px] lg:bottom-[450px] xl:bottom-[340px] xxlg:w-[813px] 2xl:bottom-[1000px] 2xl:left-20"
