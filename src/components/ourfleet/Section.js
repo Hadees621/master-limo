@@ -28,7 +28,7 @@ const Section = ({ order, textContent, title, imgURL, blurImg }) => {
         </h1>
         {textContent.map((text, index) => (
           <React.Fragment key={index}>
-            <p className="font-Archivo mx-14 text-center text-[12px] text-white md:mx-20 md:text-[14px] 1024:mx-14 1024:text-[15px] 2xl:text-[25px]">
+            <p className="font-Archivo mx-14 text-start text-[12px] text-white md:mx-20 md:text-[14px] 1024:mx-14 1024:text-[15px] 2xl:text-[25px]">
               {text}
             </p>
             {index < textContent.length - 1 && <br />}
