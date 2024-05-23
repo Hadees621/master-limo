@@ -30,7 +30,7 @@ function Home() {
       </div>
 
       {/* The Fleet Section  */}
-      <div class="relative mb-10 mt-[229px] sm:mt-1">
+      <div class="relative mb-10 mt-12 sm:mt-1 lg:mt-[229px]">
         <Fleet />
       </div>
 
@@ -49,7 +49,7 @@ function Home() {
       </div>
 
       {/* The Latest News Section  */}
-      <div class="relative mt-32">
+      <div class="relative mt-6 lg:mt-32">
         <LatestNews />
         <Polygons
           active={13}

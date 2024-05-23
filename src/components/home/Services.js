@@ -15,7 +15,7 @@ function Services() {
   const heading = `text-[40px] slg:text-start w-[100%] text-center text-white sm:text-[60px] uppercase  xl:text-[80px] 3xxlg:text-[130px] 2xxlg:text-[100px] xxlg:text-[90px] ${leagueSpartan700}`;
 
   return (
-    <div className="relative mt-10 h-[2450px] xxs:h-[1350px] sm:h-[1100px] smMd:h-[900px] 2lg:h-[800px] xl:h-[900px] xxlg:h-[1000px] 2xxlg:h-[1200px]">
+    <div className="relative h-[2450px] w-full xxs:h-[1350px] sm:h-[1100px] smMd:h-[900px] lg:mt-10 2lg:h-[800px] xl:h-[900px] xxlg:h-[1000px] 2xxlg:h-[1200px]">
       <Image
         src={homeURL.serviceMainBanner}
         layout="fill"

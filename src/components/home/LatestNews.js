@@ -23,13 +23,13 @@ function LatestNews() {
   };
 
   return (
-    <div className="relative h-[700px] px-3 sm:px-14">
+    <div className="relative h-[450px] px-3 sm:px-14 lg:h-[700px]">
       <div className="flex justify-between lg:pr-52">
         <h1 className={primaryHeading}>Catch up on all the latest news</h1>
         <NavArrows />
       </div>
 
-      <div class="no-scrollbar my-10 mb-32 ml-2 overflow-scroll whitespace-nowrap lg:w-[81%]">
+      <div class="no-scrollbar ml-2 mt-10 overflow-scroll whitespace-nowrap lg:w-[81%]">
         {News.map((_, idx) => {
           return (
             <Link href={`/blog/${_.id}`} key={idx}>

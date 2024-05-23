@@ -35,24 +35,25 @@ function CustomerService() {
   ];
   return (
     <div className="relative">
-      <div className="my-32 flex w-full flex-col items-center justify-center px-10 sm:block sm:whitespace-nowrap smMd:px-16">
+      <div className="mt-12 mb-32 flex w-full flex-col items-center justify-center px-10 sm:block sm:whitespace-nowrap smMd:px-16 lg:my-32">
         {services.map((service, idx) => {
           return <ServiceCard key={idx} {...service} />;
         })}
         <Polygons
           active={3}
-          classes={`absolute 2lg:right-4 sm:right-5 xxs:right-3 right-1  3xxlg:top-[50%] xl:top-[53%] 2lg:top-[58%] smMd:top-[60%] sm:top-[61%] xs:top-[65%] top-[68%] translate-y-[-50%] z-[2]  flex flex-col`}
+          classes={`absolute 2lg:right-4 sm:right-5 xxs:right-3 right-1 3xxlg:top-[50%] xl:top-[53%] 2lg:top-[58%] smMd:top-[60%] sm:top-[61%] xs:top-[65%] top-[68%] translate-y-[-50%] z-[2]  flex flex-col`}
         />
       </div>
-      <div className="top-[200px] -z-10 w-full smMd:top-[47px] 2lg:-top-[200px]  xl:-top-[280px]  xxlg:-top-[338px]">
+      {/*  */}
+      <div className="top-[200px] -z-10 mt-32 smMd:top-[47px] 2lg:-top-[200px] xl:-top-[280px] xxlg:-top-[338px]">
         <img
           src="/images/service_banner.png"
           alt=""
           srcset=""
-          className="h-full w-full object-cover"
+          className="h-full w-full object-cover pt-32"
         />
         <div
-          className="absolute left-2 w-[90%] px-5 375:bottom-[125px] 425:bottom-[175px] md:bottom-[380px] md:left-6 smMd:w-[560px] lg:bottom-[450px] xl:bottom-[550px] xxlg:w-[813px] 2xl:bottom-[1000px] 2xl:left-20"
+          className="absolute left-2 w-[90%] px-5 375:bottom-[225px] 425:bottom-[220px] md:bottom-[380px] md:left-6 smMd:w-[560px] lg:bottom-[450px] xl:bottom-[550px] xxlg:w-[813px] 2xl:bottom-[1000px] 2xl:left-20"
           data-aos="fade-up"
         >
           <h1

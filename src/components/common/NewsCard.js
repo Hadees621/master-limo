@@ -4,7 +4,7 @@ import Image from "next/legacy/image";
 
 /* eslint-disable @next/next/no-img-element */
 const NewsCard = ({ idx, title, desc, time, width = false }) => {
-  const container = `mr-5 inline-block xxlg:h-[480px] h-[380px] flex-col whitespace-normal bg-black  ${
+  const container = `mr-5 inline-block xxlg:h-[480px] h-[300px] flex-col whitespace-normal bg-black  ${
     width ? "xxlg:w-[450px] w-[330px]" : ""
   }`;
   return (

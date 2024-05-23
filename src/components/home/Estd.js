@@ -9,7 +9,7 @@ import Polygons from "../common/Polygons";
 function BlackCard({ number, text }) {
   return (
     <div
-      className="mx-2 mb-5 flex h-[200px] w-[170px] flex-grow flex-col  justify-between bg-black py-10 xxlg:h-[283px] xxlg:w-[242px]"
+      className="mx-2 mb-5 flex h-[200px] w-[170px] flex-grow flex-col justify-between bg-black lg:py-10 xxlg:h-[283px] xxlg:w-[242px]"
       data-aos="zoom-in-up"
     >
       <h1
