@@ -13,11 +13,11 @@ function BlackCard({ number, text }) {
       data-aos="zoom-in-up"
     >
       <h1
-        className={`text-center text-5xl xxlg:text-7xl ${leagueSpartan700} text-white`}
+        className={`pt-6 text-center text-4xl xxlg:text-7xl ${leagueSpartan700} text-white`}
       >
         {number}
       </h1>
-      <p className="px-10 text-center text-xs uppercase text-white xxlg:px-12 xxlg:text-lg">
+      <p className="pb-6 text-center text-xs uppercase text-white xxlg:px-12 xxlg:text-lg">
         {text}
       </p>
     </div>

@@ -35,7 +35,7 @@ function CustomerService() {
   ];
   return (
     <div className="relative">
-      <div className="mt-12 mb-32 flex w-full flex-col items-center justify-center px-10 sm:block sm:whitespace-nowrap smMd:px-16 lg:my-32">
+      <div className="mb-32 mt-12 flex w-full flex-col items-center justify-center px-10 sm:block sm:whitespace-nowrap smMd:px-16 lg:my-32">
         {services.map((service, idx) => {
           return <ServiceCard key={idx} {...service} />;
         })}
