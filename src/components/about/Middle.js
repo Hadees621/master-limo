@@ -56,11 +56,11 @@ const Middle = () => {
             className="text-shadow-md font-LeagueSpartan pt-10 text-right text-[32px] font-bold uppercase leading-tight text-white 320:pt-1 425:text-[36px] 768:text-[65px] 1024:pt-6 1024:text-[70px] 1440:text-[80px] 2xl:text-[135px]"
             data-aos="zoom-in"
           >
-            Qualified Chauffeurs
+            Only Qualified Chauffeurs
           </p>
 
           <p
-            className="font-Archivo mr-1 pt-5 text-right text-[7px] font-light leading-[14px] text-white 768:text-[10px] 1024:text-[13px] 1024:leading-[20px] 1440:text-[17px] 2xl:text-[22px] 2xl:leading-[24px]"
+            className="font-Archivo mr-1 pt-5 text-center text-[7px] font-light leading-[14px] text-white 768:text-[10px] 1024:text-[13px] 1024:leading-[20px] 1440:text-[17px] 2xl:text-[22px] 2xl:leading-[24px]"
             data-aos="zoom-in"
           >
             At Masterpiece Limousine we understand that transportation is more
@@ -86,7 +86,9 @@ const Middle = () => {
             <br />
             <br />
             Experience the difference with Masterpiece Limousine, where luxury
-            meets unparalleled service.
+            meets unparalleled service. Contact us today to book your
+            transportation needs and indulge in the ultimate luxury
+            transportation experience.
           </p>
 
           <p
