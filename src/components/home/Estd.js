@@ -13,11 +13,11 @@ function BlackCard({ number, text }) {
       data-aos="zoom-in-up"
     >
       <h1
-        className={`pt-6 text-center text-4xl xxlg:text-7xl ${leagueSpartan700} text-white`}
+        className={`pt-6 text-center text-4xl lg:pt-0 xxlg:text-7xl ${leagueSpartan700} text-white`}
       >
         {number}
       </h1>
-      <p className="pb-6 text-center text-xs uppercase text-white xxlg:px-12 xxlg:text-lg">
+      <p className="pb-6 text-center text-xs uppercase text-white lg:pb-0 xxlg:px-12 xxlg:text-lg">
         {text}
       </p>
     </div>
@@ -33,10 +33,12 @@ function Estd() {
   ];
 
   return (
-    <div className="relative h-[1400px] w-full xxs:h-[800px] xxlg:h-[1153px]">
+    <div className="relative h-[1200px] w-full xxs:h-[700px] 425:h-[600px] sm:h-[500px] xxlg:h-[1153px]">
+      {/*  */}
       <Polygons
         active={16}
-        classes={`absolute md:block hidden 2lg:right-4 sm:right-5 xxs:right-3 right-1  3xxlg:top-[50%] xl:top-[53%] 2lg:top-[58%] smMd:top-[60%] sm:top-[61%] xs:top-[65%] top-[68%] translate-y-[-50%] z-50  flex flex-col`}
+        // 3xxlg:top-[50%] xl:top-[53%] 2lg:top-[58%] smMd:top-[60%] sm:top-[61%] xs:top-[65%] top-[68%]
+        classes={`absolute  md:block hidden 2lg:right-4 sm:right-5 xxs:right-3 right-1  translate-y-[-50%] z-50 flex flex-col`}
       />
       <Image
         src={homeURL.estd}
@@ -44,7 +46,7 @@ function Estd() {
         alt=""
         layout="fill"
         objectFit="cover"
-        className="blur-sm xxs:blur-0"
+        className="blur-sm xxs:blur-0 "
       />
       <div class="absolute left-0 top-0 flex h-full w-full flex-col items-center justify-center ">
         {/* Cards Container  */}
