@@ -33,12 +33,12 @@ function Estd() {
   ];
 
   return (
-    <div className="relative h-[1200px] w-full xxs:h-[700px] 425:h-[600px] sm:h-[500px] xxlg:h-[1153px]">
+    <div className="relative h-[1200px] w-full xxs:h-[700px] 425:h-[600px] sm:h-[500px] lg:h-[700px] xxlg:h-[1153px]">
       {/*  */}
       <Polygons
         active={16}
-        // 3xxlg:top-[50%] xl:top-[53%] 2lg:top-[58%] smMd:top-[60%] sm:top-[61%] xs:top-[65%] top-[68%]
-        classes={`absolute  md:block hidden 2lg:right-4 sm:right-5 xxs:right-3 right-1  translate-y-[-50%] z-50 flex flex-col`}
+        //  smMd:top-[60%] sm:top-[61%] xs:top-[65%] top-[68%]
+        classes={`absolute  md:block hidden 2lg:right-4 sm:right-5 xxs:right-3 xl:top-[83%] 2lg:top-[58%] 3xxlg:top-[50%] right-1 translate-y-[-50%] z-50 flex flex-col lg:top-[300px]`}
       />
       <Image
         src={homeURL.estd}
@@ -48,9 +48,9 @@ function Estd() {
         objectFit="cover"
         className="blur-sm xxs:blur-0 "
       />
-      <div class="absolute left-0 top-0 flex h-full w-full flex-col items-center justify-center ">
+      <div class="absolute left-0 top-0 flex h-full w-full flex-col items-center justify-center">
         {/* Cards Container  */}
-        <div className="flex flex-wrap px-8 xxs:px-0">
+        <div className="relative top-44 flex flex-wrap px-8 xxs:px-0">
           {cards.map((card, idx) => {
             return <BlackCard key={idx} {...card} />;
           })}
@@ -62,7 +62,7 @@ function Estd() {
           data-aos="zoom-in-up"
         >
           <h1
-            className={`w-full bg-black p-4 text-center uppercase tracking-[10px] text-white opacity-[0.9] shadow-md xxlg:p-8 xxlg:text-2xl ${montserrat400}`}
+            className={`w-full bg-black p-4 text-center uppercase tracking-[10px] text-white opacity-[0.9] shadow-md xxlg:p-8 xxlg:text-2xl ${montserrat400} lg:mt-40`}
           >
             -Established 2001-
           </h1>

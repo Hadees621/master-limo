@@ -34,7 +34,7 @@ function Fleet() {
           objectFit="cover"
           blurDataURL={homeURL[`fleet${idx + 1}Blur`]}
           objectPosition="top"
-          className="h-full w-full object-cover object-top"
+          className="h-ful w-full object-cover object-top"
         />
         <h1 class={utils}>{bottomText}</h1>
       </>

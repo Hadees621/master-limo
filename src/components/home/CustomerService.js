@@ -35,7 +35,7 @@ function CustomerService() {
   ];
   return (
     <div className="relative">
-      <div className="mb-32 mt-12 flex w-full flex-col items-center justify-center px-10 sm:block sm:whitespace-nowrap smMd:px-16 lg:my-32">
+      <div className="mb-32 mt-12 flex w-full flex-col items-center justify-center px-10 sm:block sm:whitespace-nowrap smMd:px-16 lg:my-12">
         {services.map((service, idx) => {
           return <ServiceCard key={idx} {...service} />;
         })}
@@ -50,10 +50,10 @@ function CustomerService() {
           src="/images/service_banner.png"
           alt=""
           srcset=""
-          className="h-full w-full object-cover pt-32"
+          className="h-[800px] w-full object-cover pt-2"
         />
         <div
-          className="absolute left-2 w-[90%] px-5 375:bottom-[225px] 425:bottom-[220px] md:bottom-[380px] md:left-6 smMd:w-[560px] lg:bottom-[450px] xl:bottom-[550px] xxlg:w-[813px] 2xl:bottom-[1000px] 2xl:left-20"
+          className="absolute left-2 w-[90%] px-5 375:bottom-[225px] 425:bottom-[220px] md:bottom-[380px] md:left-6 smMd:w-[560px] lg:bottom-[450px] xl:bottom-[340px] xxlg:w-[813px] 2xl:bottom-[1000px] 2xl:left-20"
           data-aos="fade-up"
         >
           <h1
