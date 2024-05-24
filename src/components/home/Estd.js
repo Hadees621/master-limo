@@ -58,7 +58,7 @@ function Estd() {
 
         {/* Row  */}
         <div
-          className="mb-32 mt-5 w-[98%] smMd:mb-64 smMd:w-[730px] xxlg:w-[1010px]"
+          className="mb-32 mt-72 w-[98%] smMd:mb-64 smMd:w-[730px] lg:mt-16 xxlg:w-[1010px]"
           data-aos="zoom-in-up"
         >
           <h1
