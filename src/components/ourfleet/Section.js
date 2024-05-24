@@ -11,7 +11,7 @@ const Section = ({ order, textContent, title, imgURL, blurImg }) => {
       }`}
     >
       <div
-        className={`relative flex h-auto items-stretch 320:h-[500px] sm:w-full md:h-[930px]  md:w-full lg:h-auto lg:w-[50%] 1440:h-[900px]  2xl:h-[1250px] ${
+        className={`relative flex h-auto items-stretch 320:h-[500px] sm:w-full md:h-[930px]  md:w-full lg:h-auto lg:w-[50%] 1440:h-[920px]  2xl:h-[1600px] ${
           order === "right" ? "lg:order-1" : "lg:order-2"
         }`}
       >
