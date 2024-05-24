@@ -7,7 +7,7 @@ const Socials = () => {
         <ul class="flex items-end gap-3 lg:gap-4">
           <li>
             <a
-              href="/"
+              href="https://www.facebook.com/SanDiegoLimousines"
               rel="noreferrer"
               target="_blank"
               class="text-[rgba(255,255,255,0.75)] transition hover:opacity-75"
@@ -30,7 +30,7 @@ const Socials = () => {
           </li>
           <li>
             <a
-              href="/"
+              href="https://twitter.com/SDLimoMaster"
               rel="noreferrer"
               target="_blank"
               class="text-[rgba(255,255,255,0.75)] transition hover:opacity-75"
@@ -49,7 +49,7 @@ const Socials = () => {
           </li>
           <li>
             <a
-              href="/"
+              href="https://www.pinterest.com/sandiegolimo/"
               rel="noreferrer"
               target="_blank"
               className="text-[rgba(255,255,255,0.75)] transition hover:opacity-75"
@@ -67,7 +67,7 @@ const Socials = () => {
           </li>
           <li>
             <a
-              href="/"
+              href="https://www.instagram.com/masterpiece_limousine/"
               rel="noreferrer"
               target="_blank"
               class="text-[rgba(255,255,255,0.75)] transition hover:opacity-75"
