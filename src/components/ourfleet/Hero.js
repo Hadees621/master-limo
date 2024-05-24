@@ -1,30 +1,27 @@
 "use client";
 import React from "react";
 import Image from "next/legacy/image";
-import { FleetBannerURL } from "@/util/urls";
+import { FleetBannerURL, homeURL } from "@/util/urls";
 import { ourFleetBannerText } from "@/util/para";
 
 const Hero = () => {
   return (
     <>
-      <div
-        // 1024:w-[1500px] 2xl:w-full 2xl:h-[450px]
-        className={`relative h-[300px] w-full `}
-      >
+      <div className="relative h-[200px] w-full md:h-[350px] lg:h-[420px] xl:h-[550px] 2xl:h-[950px]">
         <Image
-          src={FleetBannerURL.banner}
-          alt="fleet-banner"
-          loading="eager"
-          priority={true}
-          placeholder="blur"
-          blurDataURL={FleetBannerURL.bannerBlur}
+          src={homeURL.estd}
+          blurDataURL={homeURL.estdBlur}
+          alt=""
           layout="fill"
           objectFit="cover"
+          objectPosition="center bottom"
         />
+        <div className="absolute left-0 top-0 hidden h-[20%] w-full bg-gradient-to-b from-black to-transparent lg:block lg:h-[35%] xl:h-[40%] 2xl:h-[45%] "></div>
       </div>
-      <div className="flex w-full flex-col items-center bg-black md:flex-row">
+
+      <div className="z-50 -mt-10 flex w-full flex-col items-center bg-black md:flex-row">
         <div className="flex w-full justify-center md:w-[45%] 1024:flex-[45%] 1440:flex-[38%] 2xl:flex-[40%] 2xl:justify-center">
-          <div className="flex flex-col px-12 text-center md:px-8 md:py-6 1024:px-11 lg:text-left ">
+          <div className="flex flex-col px-12 text-center md:px-8 md:pb-6 1024:px-11 lg:text-left ">
             <h1 className="font-Leaguespartan text-[40px] font-[700] text-white md:text-[47px] 1024:text-[65px] 1440:text-[80px] 2xl:text-[100px]">
               {ourFleetBannerText.title}
             </h1>
