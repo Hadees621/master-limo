@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "./Button";
 import Image from "next/legacy/image";
 import Reservation from "../common/Reservation";
 

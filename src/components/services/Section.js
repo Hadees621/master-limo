@@ -11,7 +11,7 @@ const Section = ({
   color,
   number,
 }) => {
-  const totalIcons = 17;
+  const totalIcons = 19;
 
   const filledIcons = Array.from(
     { length: Math.min(number, totalIcons) },
