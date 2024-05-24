@@ -213,6 +213,18 @@ export const Aeroplane = ({ color = "#bababa" }) => {
   );
 };
 
+export const Aeroplane2 = ({ color = "#bababa" }) => {
+  return (
+    <Image
+      src="/images/airport.png"
+      width={100}
+      height={120}
+      alt="ring"
+      className="h-8 w-8"
+    />
+  );
+};
+
 export const WeddingRing = () => {
   return (
     <Image

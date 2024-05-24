@@ -45,7 +45,7 @@ function Services() {
         </div>
 
         <div className="mx-3 mt-20 flex flex-col">
-          <ServiceCardWeb {...ServiceContent.airportTransfer} />
+          <ServiceCardWeb {...ServiceContent.airportTransfer2} />
           <ServiceCardWeb {...ServiceContent.casinos} />
         </div>
         <div className=" mb-20 flex flex-col">
@@ -67,7 +67,7 @@ function Services() {
           <ServiceCardMobile {...ServiceContent.casinos} />
           <ServiceCardMobile {...ServiceContent.winetours} />
           <ServiceCardMobile {...ServiceContent.tours} />
-          <ServiceCardMobile {...ServiceContent.airportTransfer} />
+          <ServiceCardMobile {...ServiceContent.airportTransfer2} />
           <ServiceCardMobile {...ServiceContent.weddings} />
           <ServiceCardMobile {...ServiceContent.concerts} />
         </div>

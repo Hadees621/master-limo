@@ -33,6 +33,11 @@ export const ServiceContent = {
     icon: "WeddingRing",
     para: "Relax and enjoy the most important and romantic day of your life with our Wedding Limousine Services in San Diego. ",
   },
+  airportTransfer2: {
+    title: "AIRPORT TRANSFERS",
+    icon: "Aeroplane2",
+    para: "When airport transportation in San Diego is in need, our luxury airport shuttle service leaves nothing to be desired!",
+  },
   concerts: {
     title: "Concerts",
     icon: "Music",
