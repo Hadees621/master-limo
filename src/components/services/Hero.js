@@ -13,6 +13,7 @@ const Hero = () => {
             layout="fill"
             alt="service"
           />
+          <div className="absolute left-0 top-0 h-[20%] w-full bg-gradient-to-b from-black to-transparent"></div>
         </div>
         <div className="absolute left-[3%] top-[21%] 320:left-[5%] 425:top-[25%] 768:top-[23%] 1024:top-[23%] 1440:left-[5%] 1440:top-[23%] 2xl:left-[6%] 2xl:top-[24%]">
           <h1 className="font-Leaguespartan font-[700] -tracking-tighter text-white 320:text-[12px] 320:leading-[11px] 768:text-[55px] 768:leading-[44px] 1024:text-[66px] 1024:leading-[52px] 1440:text-[90px] 1440:leading-[73px] 2xl:text-[142px] 2xl:leading-[115px]">
