@@ -28,6 +28,7 @@ const Section = ({
         className={`flex w-full justify-center bg-black 320:mt-10 768:mt-0 1024:my-10 1024:h-[720px] 1440:my-20 1440:h-[780px] 2xl:h-[980px] ${
           order === "right" ? "lg:flex-row" : "lg:flex-row-reverse"
         }`}
+        id={number}
       >
         <div
           className={`flex w-full flex-col items-center 320:h-[1250px] 425:h-[1250px] sm:flex-row 768:h-[1480px] md:w-full md:flex-col 1024:h-[600px] ${

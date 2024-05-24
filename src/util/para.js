@@ -74,9 +74,10 @@ export const ServicesSectionsData = [
     color: "[#A72211]",
     filled: 1,
     textContent: [
-      "Masterpiece Limousine offers a premium level of service with our Gold Key Concierge Service. We go above and beyond to provide a personalized and tailored experience that caters to the specific needs and preferences of our most discerning clients. Our commitment to excellence and attention to detail make us the preferred choice for luxury ground transportation.",
-      "With our Gold Key Concierge Service, you can expect nothing but the best. Our experienced team of professionals works closely with you to create a customized itinerary that meets your specific needs and preferences. We provide expert advice and recommendations on event planning, entertainment options, restaurant reservations, and more. We strive to exceed your expectations and create an unforgettable travel experience.",
-      "At Masterpiece Limousine, we understand that luxury travel should be seamless and stress-free. Our Gold Key Concierge Service is available 24/7 to provide around-the-clock assistance and support. We are dedicated to providing the highest level of service to ensure that your travel experience is smooth and hassle-free. Contact us today to learn more about our Gold Key Concierge Service, and let us help you create an unforgettable travel experience.",
+      "Welcome to Masterpiece Limousine's Gold Key Concierge Service. As a premier provider of luxury ground transportation, we understand that our clients have unique needs and expectations. That's why we offer our Gold Key Concierge Service, a personalized service that caters to the needs of our most discerning clients.",
+      "With our Gold Key Concierge Service, you will enjoy a level of service that goes beyond transportation. Our experienced professionals will work with you to create a customized itinerary that meets your specific needs and preferences. Whether you need assistance with restaurant reservations, event planning, or entertainment options, our team is here to make your experience unforgettable.",
+      "Our Gold Key Concierge Service is available 24/7, so you can always reach us when you need us. We pride ourselves on our attention to detail and commitment to providing our clients with the highest level of service. Our goal is to exceed your expectations and create an experience you will remember forever.",
+      "At Masterpiece Limousine, luxury travel should be seamless and stress-free. With our Gold Key Concierge Service, you can sit back, relax, and enjoy the journey while we care for the rest. Contact us today to learn more about our Gold Key Concierge Service, and let us help you create an unforgettable travel experience.",
     ],
     imgURL:
       "https://res.cloudinary.com/dyjirwjvp/image/upload/q_100/v1700849696/services/01_w2teaf.png",
@@ -154,7 +155,7 @@ export const ServicesSectionsData = [
     textContent: [
       "Masterpiece Limousine is dedicated to creating custom Temecula wine country experiences that cater to your unique tastes and preferences. As proud members of the Temecula Winegrowers Association (https://www.temeculawines.org/), we are thrilled to offer exclusive packages that promise a truly unforgettable wine-tasting adventure. Rely on us to handle your transportation in our luxurious Luxury Buses or Executive and Limo Sprinters while you sit back, savor, and fully immerse yourself in the captivating beauty and flavors of the Temecula wine region.",
       "Whether you're a seasoned wine enthusiast or a curious beginner eager to explore new tastes, our Temecula wine tours are the perfect way to make the most of your day. With over 40 wineries to choose from, you can create a personalized itinerary that matches your desires. Our lavish limousines and skilled, friendly drivers ensure a comfortable, sophisticated, and safe experience throughout your journey.",
-      "Don't miss the opportunity to plan your remarkable Temecula wine tour with Masterpiece Limousine. Contact us today and let us help you craft an unforgettable wine-tasting experience tailored just for you.",
+      "Take advantage of the opportunity to plan your remarkable Temecula wine tour with Masterpiece Limousine. Contact us today and let us help you craft an unforgettable wine-tasting experience tailored just for you.",
     ],
     imgURL:
       "https://res.cloudinary.com/dyjirwjvp/image/upload/v1714562404/services/wine-5_dmzfmj.jpg",
@@ -209,7 +210,7 @@ export const ServicesSectionsData = [
     color: "[#2189B7]",
     filled: 8,
     textContent: [
-      "Looking to make a grand entrance at your next concert in San Diego, Los Angeles, or the surrounding areas? Look no further than Masterpiece Limousine's concert limo service. Our fleet includes high-end luxury buses, Executive Sprinters, and Sprinter Limos, as well as stretched limousines and Hummer limos that can accommodate you and your friends, allowing the party to start as soon as the limo picks you up. You can even tailgate before the show begins, creating an unforgettable experience before the music even starts.",
+      "Are you looking to make a grand entrance at your next concert in San Diego, Los Angeles, or the surrounding areas? Look no further than Masterpiece Limousine's concert limo service. Our fleet includes high-end luxury buses, Executive Sprinters, Sprinter Limos, stretched limousines, and Hummer limos that can accommodate you and your friends, allowing the party to start as soon as the limo picks you up. You can even tailgate before the show begins, creating an unforgettable experience before the music even starts.",
       "After the concert, skip the hassle of navigating a crowded parking lot or finding a designated driver. Our professional chauffeurs will provide a comfortable and stress-free ride home, ensuring the evening ends on a high note. With excellent rates and bargain deals for weekday concerts, our concert limo service is an affordable and memorable experience.",
       "Contact Masterpiece Limousine today and leave the driving to us. Our team is dedicated to providing top-notch service and will be happy to assist in any way we can. Ask about our unique San Diego concert services and party bus limo rental options. Click here to learn more and start planning your concert transportation in luxury and style today.",
     ],
@@ -351,8 +352,6 @@ export const ServicesSectionsData = [
     textContent: [
       "Celebrate your Quinceañera in style and luxury with Masterpiece Limousine's Quinceañera limo service in San Diego. Our extensive fleet includes luxury sedans, stretched Hummer limos, spacious Sprinters, Executive Sprinters, and luxury buses accommodating up to 40 passengers.",
       "We prioritize style, space, and safety to ensure your Quinceañera is an unforgettable and enjoyable experience. Our experienced and professional chauffeurs are trained in defensive driving techniques, and we follow all local regulations to ensure your safety. Our vehicles are equipped with top-of-the-line amenities, including tinted windows for privacy, to make your ride comfortable and enjoyable.",
-      "Our Quinceañera limo service in San Diego is available for all venues in San Diego County, including popular locations such as Hilton San Diego Mission Valley Hotel, The San Diego County Swiss Park, and Twin Oaks Golf Course. To ensure availability during the spring and summer months, booking your Quinceañera limo rental in San Diego well in advance is essential.",
-      "We understand the importance of the perfect Quinceañera dress, which is why we've compiled a list of boutiques and stores in San Diego where you can find the ideal gown. And if you're looking for special deals and offers, sign up for our specials to be the first to know about any Quinceañera or Hummer Limousine specials available.",
       "At Masterpiece Limousine, we strive to make the woman of the day feel special by arriving in style and ensuring that her night is unforgettable. Trust us to make your Quinceañera one of the best days of your life. Contact us today to choose the best limo rental for your party and experience the luxury and elegance of our Quinceañera limo service in San Diego.",
     ],
     imgURL:
@@ -387,19 +386,60 @@ export const ServicesSectionsData = [
     number: "17",
     heading: "School Even Limo Services",
     order: "right",
-    color: "[#A72211]",
+    color: "[#2189B7]",
     filled: 17,
     textContent: [
       "Are you looking to make your child's school event unforgettable? Look no further than Masterpiece Limousine's safe and reliable school event limo services. Our experienced and professional chauffeurs will pick your child up from home and take them to their school event in style, ensuring a safe and enjoyable journey.",
-      "Our luxury limousines are equipped with all the amenities to make the ride even more enjoyable, with options like stretch limousines, Hummer limos, and party buses. And with the option to bring friends along in our spacious H2 Hummer Limo, which can hold up to 40 passengers, the party can start right in the car.",
-      "At Masterpiece Limousine, we understand the importance of privacy and security for children, which is why our limousines have tinted windows and separate driver's compartments. Our chauffeurs are also trained in handling paparazzi and security threats on the road and are always available to assist through the intercom system.",
-      "Safety is our top priority, so you can trust that your child will be in good hands with us. We follow all local regulations and have a strict zero-tolerance policy for alcohol or drug use in our vehicles. Our chauffeurs are also trained in defensive driving techniques to ensure your child's safety on the road.",
-      "If you need to make last-minute adjustments to your schedule, our school event limo services in San Diego are flexible and can start at any time. And if the event ends earlier than expected, our limos are on standby to take your child home safely.",
-      "And if you're looking for transportation for prom night, Masterpiece Limousine has got you covered with our luxury prom limousine service. We offer a wide range of luxury vehicles, including Executive Sprinters and Sprinter Limos, equipped with top-of-the-line amenities to make your prom night special. Our experienced and professional chauffeurs will ensure your prom night is safe, fun, and stress-free.",
-      "Contact Masterpiece Limousine today to book our school event or prom limo services and give your child the celebrity treatment they deserve.",
+      "Our dedicated transportation services boast an array of enhancements to elevate the passenger experience. These include wheelchair lifts, ramps, and securement systems for safe vehicle entry and exit. Our skilled drivers are trained to assist passengers with disabilities and provide any additional support required.",
+      "Furthermore, ride-sharing services can include options to assist passengers with disabilities, such as requesting wheelchair-accessible vehicles or signaling that assistance is needed during the journey.",
+      "Selecting the ideal transportation service is crucial for those with disabilities. It's vital to research and choose companies with vast experience in catering to individuals with disabilities and a strong commitment to safety and dependability.",
+      "At Masterpiece Limousine, we are committed to providing accessible transportation that empowers individuals with disabilities to enjoy independence and access essential services such as employment opportunities, medical appointments, and social events. We pride ourselves on being a reliable, safe, and comfortable transportation service provider that caters to the distinct needs of individuals with disabilities.",
     ],
     imgURL:
       "https://res.cloudinary.com/dyjirwjvp/image/upload/v1714562400/services/school-event-18_vnwqvy.jpg",
+    blurImg:
+      "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_10/v1700849701/services/17_xzeos9.png",
+    SImg: "https://res.cloudinary.com/dyjirwjvp/image/upload/q_100/v1700849949/services/Filled_Bow_Tie_gyzoja.png",
+    SImgBlur:
+      "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_10/v1700849949/services/Filled_Bow_Tie_gyzoja.png",
+  },
+  {
+    number: "18",
+    heading: "Disability Service",
+    order: "left",
+    color: "[#A72211]",
+    filled: 18,
+    textContent: [
+      "At Masterpiece Limousine, we understand the importance of transportation in our daily lives, connecting us to vital services and opportunities. However, for individuals with disabilities, navigating transportation can be daunting. We're proud to offer specialized transportation services tailored to their unique requirements, featuring customized vehicles and highly trained drivers to guarantee safe and comfortable journeys.",
+      "Furthermore, ride-sharing services can include options to assist passengers with disabilities, such as requesting wheelchair-accessible vehicles or signaling that assistance is needed during the journey.",
+      "At Masterpiece Limousine, we understand the importance of privacy and security for children, which is why our limousines have tinted windows and separate driver's compartments. Our chauffeurs are also trained in handling paparazzi and security threats on the road and are always available to assist through the intercom system.",
+      "Selecting the ideal transportation service is crucial for those with disabilities. It's vital to research and choose companies with vast experience in catering to individuals with disabilities and a strong commitment to safety and dependability.",
+      "At Masterpiece Limousine, we are committed to providing accessible transportation that empowers individuals with disabilities to enjoy independence and access essential services such as employment opportunities, medical appointments, and social events. We pride ourselves on being a reliable, safe, and comfortable transportation service provider that caters to the distinct needs of individuals with disabilities.",
+    ],
+    imgURL: "/dis.jpeg",
+    blurImg:
+      "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_10/v1700849701/services/17_xzeos9.png",
+    SImg: "https://res.cloudinary.com/dyjirwjvp/image/upload/q_100/v1700849949/services/Filled_Bow_Tie_gyzoja.png",
+    SImgBlur:
+      "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_10/v1700849949/services/Filled_Bow_Tie_gyzoja.png",
+  },
+  {
+    number: "19",
+    heading: "Medical Tourism Transportation in Tijuana, Mexico",
+    order: "right",
+    color: "[#2189B7]",
+    filled: 19,
+    textContent: [
+      "Masterpiece Limousine is proud to offer specialized transportation services tailored to the medical tourism industry in Tijuana, Mexico. We recognize the need for safe, dependable, and comfortable transportation for those seeking medical treatment across the border. Our drivers possess extensive knowledge of Mexican traffic laws and prioritize the safety and satisfaction of our passengers during their medical journeys.",
+      "Ensuring the safety of our passengers is paramount. Our vehicles undergo regular maintenance checks for optimal performance and security. Our drivers receive comprehensive training in defensive driving techniques and are well-acquainted with local routes and traffic conditions.",
+
+      "Punctuality and dependability are essential, especially when it comes to medical appointments and procedures. Masterpiece Limousine consistently upholds a high standard of reliability, ensuring our clients arrive at their destinations promptly. Our drivers continuously monitor traffic and road conditions to choose the most efficient routes, avoiding delays and guaranteeing a smooth journey.",
+
+      "Our drivers have a deep understanding of Mexican traffic laws and regulations, allowing them to navigate Tijuana's roads seamlessly. We pride ourselves on delivering efficient and secure transportation services while adhering to local traffic requirements. Masterpiece Limousine takes care of the complexities of cross-border travel and Mexican traffic laws, enabling you to focus on your medical tourism experience.",
+
+      "Masterpiece Limousine is committed to delivering outstanding transportation services to medical tourism clients in Tijuana, Mexico. We focus on safety, reliability, and a comprehensive understanding of Mexican traffic laws to ensure a seamless and comfortable travel experience. Choose Masterpiece Limousine as your transportation partner when seeking medical treatment in Tijuana, and let us handle the logistics while you concentrate on your health and well-being.",
+    ],
+    imgURL: "/akri.jpeg",
     blurImg:
       "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_10/v1700849701/services/17_xzeos9.png",
     SImg: "https://res.cloudinary.com/dyjirwjvp/image/upload/q_100/v1700849949/services/Filled_Bow_Tie_gyzoja.png",
