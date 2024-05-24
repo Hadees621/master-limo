@@ -15,6 +15,7 @@ function OurFleet() {
           title={section.title}
           imgURL={section.imgURL}
           blurImg={section.blurImg}
+          id={section.id}
         />
       ))}
     </>

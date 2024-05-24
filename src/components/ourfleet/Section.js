@@ -3,12 +3,13 @@ import Button from "./Button";
 import Image from "next/legacy/image";
 import Reservation from "../common/Reservation";
 
-const Section = ({ order, textContent, title, imgURL, blurImg }) => {
+const Section = ({ order, textContent, title, imgURL, blurImg, id }) => {
   return (
     <div
       className={`flex h-auto flex-col sm:flex-col md:flex-col lg:flex-row ${
         order === "left" ? "flex-row-reverse" : "flex-row"
       }`}
+      id={id}
     >
       <div
         className={`relative flex h-auto items-stretch 320:h-[500px] sm:w-full md:h-[930px]  md:w-full lg:h-auto lg:w-[50%] 1440:h-[920px]  2xl:h-[1600px] ${

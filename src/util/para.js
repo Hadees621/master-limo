@@ -450,6 +450,8 @@ export const ServicesSectionsData = [
 
 export const OurFleetSections = [
   {
+    id: "1",
+    name: "Mercedes Sprinter Limousine",
     order: "left",
     textContent: [
       " When it comes to luxury ground transportation, the Mercedes-Benz Sprinter Limo is a top choice for any occasion. Whether you're planning a corporate event or a wedding, this sleek and stylish vehicle is sure to impress. Not only is the interior spacious and comfortable, but the onboard TVs and bar area make it perfect for presentations or celebrations.",
@@ -464,6 +466,8 @@ export const OurFleetSections = [
       "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_15/v1700914654/MSL_pvieyx.png",
   },
   {
+    id: "2",
+    name: "Mercedes Sprinter Executive",
     order: "right",
     textContent: [
       "Looking for luxury ground transportation that's reliable, comfortable, and safe? Look no further than the Mercedes-Benz Executive Sprinter. This vehicle is perfect for corporate team-building excursions, with its spacious interior and open-style limo seating, providing a luxury environment for up to 12 passengers.",
@@ -478,6 +482,8 @@ export const OurFleetSections = [
       "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_22/v1700914646/MSE_bviwzd.png",
   },
   {
+    id: "3",
+    name: "Executive Sedan",
     order: "left",
     textContent: [
       "Masterpiece Limousine is proud to offer our clients luxury transportation services that combine comfort, safety, and reliability. Whether you're traveling for business or pleasure, our professional chauffeurs are dedicated to ensuring your experience is stress-free and enjoyable. Our luxurious stretch limo rental is one of our most popular services, offering passengers an unforgettable travel experience.",
@@ -493,6 +499,8 @@ export const OurFleetSections = [
       "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_17/v1700914647/SL_geegjp.png",
   },
   {
+    id: "4",
+    name: "Luxury Stretch Limousine",
     order: "right",
     textContent: [
       "At Masterpiece Limousine, we understand the importance of making a statement and standing out from the crowd. That's why we offer the most exclusive and luxurious limousine services in San Diego, including our H2 Hummer Limo.",
@@ -508,6 +516,8 @@ export const OurFleetSections = [
       "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_18/v1700914648/stretch-lemo_mupfca.png  ",
   },
   {
+    id: "5",
+    name: "Hummer Stretch Limousine",
     order: "left",
     textContent: [
       "Luxury ground transportation is the perfect way to elevate your travel experience, and Masterpiece Limousine offers a range of options to suit your needs. Our Executive Sedans are a great choice for small groups, with seating for 2-3 passengers and room for luggage. They are ideal for business meetings, airport transportation, and special events.",
@@ -522,6 +532,8 @@ export const OurFleetSections = [
       "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_12/v1700914645/ES_tq65sb.png",
   },
   {
+    id: "6",
+    name: "Executive SUV",
     order: "right",
     textContent: [
       "Indulge in the luxury of our new Executive SUVs, designed for the discerning traveler seeking a top-notch transportation experience. Our SUVs are the epitome of sophistication, offering unparalleled comfort and convenience.",
@@ -635,15 +647,6 @@ export const NavigateListItems = [
   { name: "Fleet", href: "/fleet" },
   { name: "Services", href: "/services" },
   { name: "Reservations", href: "/reservations" },
-];
-
-export const FleetListItems = [
-  "Mercedes Sprinter Limousine",
-  "Mercedes Sprinter Executive",
-  "Executive Sedan",
-  "Luxury Stretch Limousine",
-  "Hummer Stretch Limousine",
-  "Executive SUV",
 ];
 
 export const serviceListItems = [
