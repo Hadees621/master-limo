@@ -482,40 +482,6 @@ export const OurFleetSections = [
       "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_22/v1700914646/MSE_bviwzd.png",
   },
   {
-    id: "3",
-    name: "Executive Sedan",
-    order: "left",
-    textContent: [
-      "Masterpiece Limousine is proud to offer our clients luxury transportation services that combine comfort, safety, and reliability. Whether you're traveling for business or pleasure, our professional chauffeurs are dedicated to ensuring your experience is stress-free and enjoyable. Our luxurious stretch limo rental is one of our most popular services, offering passengers an unforgettable travel experience.",
-      "Our Stretch limos are spacious, comfortable, and can accommodate up to 8 passengers, with plenty of luggage space. This makes it perfect for airport transportation, business meetings, or a night out on the town. The Stretch limo rental is the perfect choice for those who seek both style and convenience.",
-      "At Masterpiece Limousine, we pride ourselves on our experienced and professional chauffeurs who are knowledgeable about the San Diego area and can provide a stress-free journey to your destination. We follow all local regulations and have a strict policy of zero-tolerance for alcohol or drug use in our vehicles. Safety is our top priority, and we are fully licensed and insured for your peace of mind.",
-      "In addition to our Stretch limo rental, we offer a range of other luxury vehicles, including H2 Hummer limos, Cadillac Escalade limos, and more. We ensure that we have the perfect vehicle to suit your style and budget.",
-      "At Masterpiece Limousine, we aim to provide you with a travel experience that is nothing short of exceptional. Our luxurious Stretch limo rental and other luxury transportation options are the perfect choice for those who seek both comfort and elegance. Contact us today to learn more about our services and book your next luxurious travel experience with us.",
-    ],
-    title: "STRETCH LIMOUSINE",
-    imgURL:
-      "https://res.cloudinary.com/dyjirwjvp/image/upload/q_100/v1700914647/SL_geegjp.png",
-    blurImg:
-      "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_17/v1700914647/SL_geegjp.png",
-  },
-  {
-    id: "4",
-    name: "Luxury Stretch Limousine",
-    order: "right",
-    textContent: [
-      "At Masterpiece Limousine, we understand the importance of making a statement and standing out from the crowd. That's why we offer the most exclusive and luxurious limousine services in San Diego, including our H2 Hummer Limo.",
-      "Our H2 Hummer Limo is the epitome of exclusivity, attracting more attention than any other car on the street. Custom-designed with amenities like neon lights, televisions, and a wet bar, this limo is perfect for bachelor/bachelorette parties, weddings, proms, nights on the town, and sporting events. With Bluetooth connectivity, you can easily stream your favorite music and make hands-free calls while you ride in style.",
-      "Step into the Masterpiece Hummer Limo, and suddenly you're turning heads and the center of attention. You'll feel like a VIP, making a grand entrance to your event in the most stylish and unforgettable way possible. Our H2 Hummer Limo is perfect for those who want to do things in their unique style and accentuate their star quality.",
-      "At Masterpiece Limousine, we pride ourselves on providing our clients with the highest service and luxury. When you choose our H2 Hummer Limo, you can trust that you will receive the best in style, comfort, and convenience. Our professional and experienced chauffeurs are dedicated to ensuring that your ride is safe, comfortable, and stress-free.",
-      "Book our H2 Hummer Limo today and experience the exclusivity and luxury that only Masterpiece Limousine can offer. Make a statement and stand out from the crowd with the most exclusive limousine service in San Diego.",
-    ],
-    title: "STRETCH LIMOUSINE",
-    imgURL:
-      "https://res.cloudinary.com/dyjirwjvp/image/upload/q_100/v1700914648/stretch-lemo_mupfca.png",
-    blurImg:
-      "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_18/v1700914648/stretch-lemo_mupfca.png  ",
-  },
-  {
     id: "5",
     name: "Hummer Stretch Limousine",
     order: "left",
@@ -530,6 +496,40 @@ export const OurFleetSections = [
       "https://res.cloudinary.com/dyjirwjvp/image/upload/q_100/v1700914645/ES_tq65sb.png",
     blurImg:
       "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_12/v1700914645/ES_tq65sb.png",
+  },
+  {
+    id: "3",
+    name: "Executive Sedan",
+    order: "right",
+    textContent: [
+      "Masterpiece Limousine proudly offers our clients luxury transportation services that combine comfort, safety, and reliability. Whether you're traveling for business or pleasure, our professional chauffeurs are dedicated to ensuring your experience is stress-free and enjoyable. In addition, our luxurious stretch limo rental is one of our most popular services, offering passengers an unforgettable travel experience",
+      "Our Stretch limos are spacious, comfortable, and can accommodate up to 8 passengers, with plenty of luggage space. This makes it perfect for airport transportation, business meetings, or a night out on the town. The Stretch limo rental is perfect for those seeking style and convenience.",
+      "At Masterpiece Limousine, we pride ourselves on our experienced and professional chauffeurs who are knowledgeable about the San Diego area and can provide a stress-free journey to your destination. Safety is our top priority, and we are fully licensed and insured for your peace of mind.",
+      "In addition to our Stretch limo rental, we offer a range of other luxury vehicles, including H2 Hummer limos, Cadillac Escalade limos, and more. We ensure we have the perfect vehicle to suit your style and budget.",
+      "At Masterpiece Limousine, we aim to provide you with a travel experience that is nothing short of exceptional. Our luxurious Stretch limo rental and other luxury transportation options are perfect for those seeking comfort and elegance. Contact us today to learn more about our services and book your next luxury travel experience.",
+    ],
+    title: "STRETCH LIMOUSINE",
+    imgURL:
+      "https://res.cloudinary.com/dyjirwjvp/image/upload/q_100/v1700914647/SL_geegjp.png",
+    blurImg:
+      "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_17/v1700914647/SL_geegjp.png",
+  },
+  {
+    id: "4",
+    name: "Luxury Stretch Limousine",
+    order: "left",
+    textContent: [
+      "At Masterpiece Limousine, we understand the importance of making a statement and standing out from the crowd. That's why we offer the most exclusive and luxurious limousine services in San Diego, including our H2 Hummer Limo.",
+      "Our H2 Hummer Limo is the epitome of exclusivity, attracting more attention than any other car on the street. Custom-designed with amenities like neon lights, televisions, and a wet bar, this limo is perfect for bachelor/bachelorette parties, weddings, proms, nights on the town, and sporting events. With Bluetooth connectivity, you can easily stream your favorite music and make hands-free calls while you ride in style.",
+      "Step into the Masterpiece Hummer Limo, and suddenly you're turning heads and the center of attention. You'll feel like a VIP, making a grand entrance to your event in the most stylish and unforgettable way possible. Our H2 Hummer Limo is perfect for those who want to do things in their unique style and accentuate their star quality.",
+      "At Masterpiece Limousine, we pride ourselves on providing our clients with the highest service and luxury. When you choose our H2 Hummer Limo, you can trust that you will receive the best in style, comfort, and convenience. Our professional and experienced chauffeurs are dedicated to ensuring that your ride is safe, comfortable, and stress-free.",
+      "Book our H2 Hummer Limo today and experience the exclusivity and luxury that only Masterpiece Limousine can offer. Make a statement and stand out from the crowd with the most exclusive limousine service in San Diego.",
+    ],
+    title: "Hummer Stretch Limousine",
+    imgURL:
+      "https://res.cloudinary.com/dyjirwjvp/image/upload/q_100/v1700914648/stretch-lemo_mupfca.png",
+    blurImg:
+      "https://res.cloudinary.com/dyjirwjvp/image/upload/e_blur:100,q_18/v1700914648/stretch-lemo_mupfca.png  ",
   },
   {
     id: "6",
@@ -650,25 +650,4 @@ export const NavigateListItems = [
     name: "Reservations",
     href: "https://book.mylimobiz.com/v4/masterpiecelimo",
   },
-];
-
-export const serviceListItems = [
-  "Gold Key Concierge",
-  "Airport Transfers",
-  "Temecula Wine Tours",
-  "Graduation Limo Services",
-  "Sporting Event Transportation",
-  "Prom Night Limousine Services",
-  "Quinceañera Limousine Service",
-  "Mexico Limousine Tours",
-  "SoCal Casino Limo Services",
-  "Del Mar Races Limousine Service",
-  "Tijuana/CBX Airport Services",
-  "Nightclub Limo Service",
-  "San Diego Brewery Tours",
-  "Concert Limo Services",
-  "Bachelor & Bachelorette Parties",
-  "School Even Limo Services",
-  "Executive Ground Transportation",
-  "Wedding Limousine Transportation",
 ];
