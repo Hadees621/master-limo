@@ -1,19 +1,21 @@
-import ListItem from './ListItem';
-import { serviceListItems, ServicesSectionsData } from '@/util/para';
+import ListItem from "./ListItem";
+import { serviceListItems, ServicesSectionsData } from "@/util/para";
 
 const ServiceList = () => {
-    return (
-        <div className="flex flex-col text-center justify-center">
-            <p className="text-[#FFFFFF] text-[19px] font-Montserrat font-[700] uppercase tracking-[3.6px]">Services</p>
-            <div className='flex justify-center'>
-                <ul className="flex flex-col text-left mt-5 space-y-1 list-inside list-disc whitespace-nowrap">
-                    {ServicesSectionsData.map((item, index) => (
-                        <ListItem key={index} text={item.heading} id={item.number} />
-                    ))}
-                </ul>
-            </div>
-        </div>
-    );
+  return (
+    <div className="flex flex-col justify-center text-center ">
+      <p className="font-Montserrat text-[19px] font-[700] uppercase tracking-[3.6px] text-[#FFFFFF]">
+        Services
+      </p>
+      <div className="flex justify-center ml-20">
+        <ul className="mt-5 flex list-inside list-disc flex-col space-y-1 whitespace-nowrap text-left">
+          {ServicesSectionsData.map((item, index) => (
+            <ListItem key={index} text={item.heading} id={item.number} />
+          ))}
+        </ul>
+      </div>
+    </div>
+  );
 };
 
 export default ServiceList;

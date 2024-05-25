@@ -1,8 +1,19 @@
+"use client";
+
 import React from "react";
 import Image from "next/legacy/image";
-import { servicesBannerData } from "@/util/para";
+import { ServicesSectionsData, servicesBannerData } from "@/util/para";
 import { ServiceBannerURL } from "@/util/urls";
+import Link from "next/link";
 const Hero = () => {
+  const handleScroll = (event, serviceNumber) => {
+    event.preventDefault();
+    const targetElement = document.querySelector(`[id='${serviceNumber}']`);
+    if (targetElement) {
+      targetElement.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <>
       <div className="relative 320:mb-2 768:mb-12 1024:mb-32">
@@ -22,12 +33,17 @@ const Hero = () => {
             SERVICES
           </h1>
           <ul className="320:mt-2 320:space-y-1.5 768:mt-5 768:space-y-4 1024:mt-8 1024:space-y-[20px] 1440:mt-8 1440:space-y-6 2xl:mt-16 2xl:space-y-12">
-            {servicesBannerData.map((service, index) => (
+            {ServicesSectionsData.map((service, index) => (
               <li
                 key={index}
-                className=" text-shadow-md font-Montserrat font-bold uppercase italic leading-normal text-white 320:text-[4.5px] 320:leading-[1.2px] 320:tracking-[1.6px] 768:text-[12px] 768:leading-[0.8px] 768:tracking-[3.6px] 1024:text-[15px] 1024:leading-[3.5px] 1024:tracking-[5px] 1440:text-[21px] 1440:leading-[6px] 1440:tracking-[6px] 2xl:text-[35px] 2xl:leading-[4.6px] 2xl:tracking-[7px]"
+                className="text-shadow-md font-Montserrat font-bold uppercase italic leading-normal text-white 320:text-[4.5px] 320:leading-[1.2px] 320:tracking-[1.6px] 768:text-[12px] 768:leading-[0.8px] 768:tracking-[3.6px] 1024:text-[15px] 1024:leading-[3.5px] 1024:tracking-[5px] 1440:text-[21px] 1440:leading-[6px] 1440:tracking-[6px] 2xl:text-[35px] 2xl:leading-[4.6px] 2xl:tracking-[7px]"
               >
-                + {service}
+                <a
+                  href={`/services/#${service.number}`}
+                  onClick={(e) => handleScroll(e, service.number)}
+                >
+                  + {service.heading}
+                </a>
               </li>
             ))}
           </ul>
