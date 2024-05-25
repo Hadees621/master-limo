@@ -7,7 +7,7 @@ import { ourFleetBannerText } from "@/util/para";
 const Hero = () => {
   return (
     <>
-      <div className="relative h-[200px] border w-full md:h-[350px] lg:h-[420px] xl:h-[550px] 2xl:h-[950px]">
+      <div className="relative h-[200px] w-full md:h-[350px] lg:h-[420px] xl:h-[550px] 2xl:h-[950px]">
         <Image
           src={homeURL.estd}
           blurDataURL={homeURL.estdBlur}
