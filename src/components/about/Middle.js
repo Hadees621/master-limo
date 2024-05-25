@@ -49,7 +49,11 @@ const Middle = () => {
             className="font-libre-baskerville p-4 text-center text-[13px] font-normal italic leading-normal text-white 768:text-[18px] 1024:px-8 1024:text-[26px] 1440:px-16 1440:text-[34px] 2xl:px-32 2xl:text-[52px]"
             data-aos="zoom-in"
           >
-            Whatever your transportation needs may be, weve got you covered.
+            With a reputation for exceptional customer service, reliability, and
+            safety, our team at Masterpiece Limousine is committed to exceeding
+            your expectations. Contact us today at 858-483-5466 for reservations
+            or additional information, and experience the luxury and elegance of
+            our transportation services.
           </p>
 
           <p

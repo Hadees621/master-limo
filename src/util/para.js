@@ -636,7 +636,7 @@ export const AboutUSTextOnImage = [
   {
     imageUrl: AboutUsURLs.third,
     blurUrl: AboutUsURLs.thirdBLur,
-    text: "At Masterpiece Limousine, we offer various transportation services, including Temecula wine tours, anniversary celebrations, bachelor and bachelorette parties, and more. ",
+    text: "At Masterpiece Limousine, we offer various transportation services, including Temecula wine tours, anniversary celebrations, bachelor and bachelorette parties, and more. Whatever your transportation needs may be, we've got you covered.",
   },
 ];
 

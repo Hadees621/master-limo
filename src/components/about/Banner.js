@@ -7,7 +7,9 @@ const Banner = () => {
   return (
     <>
       <div className="relative">
-        <div className={`relative h-[300px] md:h-[500px] w-full 2xl:h-[1080px]`}>
+        <div
+          className={`relative h-[300px] w-full md:h-[500px] lg:h-[800px] xl:h-[850px] 2xl:h-[1500px]`}
+        >
           <Image
             src={AboutUsURLs.banner}
             alt="aboutus-banner"
@@ -19,8 +21,8 @@ const Banner = () => {
             objectFit="cover"
           />
         </div>
-        <div className="absolute left-[32%] 320:top-[55%] 375:top-[49%] 768:top-[42%] 1024:left-[31%] 1024:top-[22%] 1440:left-[34%] 1440:top-[21%]">
-          <div className="backdrop-blur-2 flex h-[137px] w-[110px] flex-col items-center justify-center bg-black bg-opacity-50 backdrop-filter 375:h-[158px] 375:w-[148px] 425:h-[180px] 425:w-[148px] md:h-[328px] md:w-[272px] 1024:h-[218px] 1024:w-[222px] lg:h-[540px] lg:w-[450px] 1440:h-[538px] 1440:w-[552px] 2xl:h-[1090px] 2xl:w-[900px]">
+        <div className="absolute left-[32%] 320:top-[55%] 375:top-[49%] 768:top-[42%] 1024:left-[31%] 1024:top-[37%] 1440:left-[34%] 1440:top-[38%] 2xl:top-[37%]">
+          <div className="backdrop-blur-2 flex h-[137px] w-[110px] flex-col items-center justify-center bg-black bg-opacity-50 backdrop-filter 375:h-[158px] 375:w-[148px] 425:h-[180px] 425:w-[148px] md:h-[328px] md:w-[272px] 1024:h-[218px] 1024:w-[222px] lg:h-[540px] lg:w-[450px] 1440:h-[538px] 1440:w-[552px] 2xl:h-[950px] 2xl:w-[900px]">
             <p className="text-shadow font-LeagueSpartan text-[15px] font-[700] text-white md:text-[35px] 1024:text-[60px] lg:text-[80px] 2xl:text-[120px]">
               {AboutUsBannerText.title}
             </p>
