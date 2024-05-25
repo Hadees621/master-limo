@@ -643,10 +643,13 @@ export const AboutUSTextOnImage = [
 export const NavigateListItems = [
   { name: "Home", href: "/" },
   { name: "About us", href: "/about" },
-  { name: "Specials", href: "/specials" },
-  { name: "Fleet", href: "/fleet" },
+  { name: "Fleet", href: "/ourfleet" },
   { name: "Services", href: "/services" },
-  { name: "Reservations", href: "/reservations" },
+  { name: "Contact Us", href: "/contact" },
+  {
+    name: "Reservations",
+    href: "https://book.mylimobiz.com/v4/masterpiecelimo",
+  },
 ];
 
 export const serviceListItems = [

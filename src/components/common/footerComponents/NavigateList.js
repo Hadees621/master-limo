@@ -1,5 +1,5 @@
-import ListItem from "./ListItem";
 import { NavigateListItems } from "@/util/para";
+import NavigateListItem from "./NavigateListItem";
 
 const NavigateList = () => {
   return (
@@ -10,7 +10,7 @@ const NavigateList = () => {
       <div className="flex justify-center  1440:justify-center">
         <ul className="mt-5 flex list-inside list-disc flex-col space-y-1 text-left">
           {NavigateListItems.map((item, index) => (
-            <ListItem key={index} text={item.name} route={item.href} />
+            <NavigateListItem key={index} text={item.name} route={item.href} />
           ))}
         </ul>
       </div>
