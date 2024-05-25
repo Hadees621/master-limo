@@ -7,8 +7,8 @@ const ServiceList = () => {
       <p className="font-Montserrat text-[19px] font-[700] uppercase tracking-[3.6px] text-[#FFFFFF]">
         Services
       </p>
-      <div className="ml-20 flex justify-center">
-        <ul className="mt-5 flex list-inside list-disc flex-col space-y-1 whitespace-nowrap text-left">
+      <div className="ml-12 flex justify-center md:ml-4 lg:mr-0 xl:ml-5 2xl:ml-20">
+        <ul className="overflow- mt-5 flex list-inside list-disc flex-col space-y-1 text-left">
           {ServicesSectionsData.map((item, index) => (
             <ListItem key={index} text={item.heading} id={item.number} />
           ))}
