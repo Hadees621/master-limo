@@ -13,10 +13,7 @@ function Header({ title, activeTab, onClick }) {
           {title}
         </h1>
       </div>
-      <div
-        className="mb-2  rotate-90 cursor-pointer"
-        onClick={onClick}
-      >
+      <div className="mb-2 rotate-90 cursor-pointer" onClick={onClick}>
         <RightArrow width={15} height={15} />
       </div>
     </div>
