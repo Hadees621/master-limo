@@ -31,7 +31,7 @@ function Reservation() {
       <div className="mb-32 w-full max-w-[1796px] px-5 pt-52 sm:mb-0 sm:px-10 md:px-16 xl:px-52">
         <BackgroundBanner />
         {/* Embed the reservation widget */}
-        <div className="mt-12 mb-20 flex justify-center">
+        <div className="mb-20 mt-12 flex justify-center">
           <a
             href="https://book.mylimobiz.com/v4/masterpiecelimo"
             data-ores-widget="website"
